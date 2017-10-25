@@ -1,3 +1,6 @@
+--make sure to run this script as a sysdba
+--you may also need to open your pluggable database
+
 alter session set container=cdb$root;
 alter system set db_16k_cache_size=20M;
 alter system set db_32k_cache_size=20M;
