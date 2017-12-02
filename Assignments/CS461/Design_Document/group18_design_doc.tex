@@ -1,0 +1,107 @@
+\documentclass[10pt]{article}
+\usepackage{titling}
+\usepackage[margin=0.75in]{geometry}
+
+\title{Design Document}
+\author{
+	Dylan Davis, Trevor Hammock, Alex Schultz \\
+	Oregon State University\\
+	Corvallis, Oregon
+}
+\date{\today}
+
+\begin{document}
+\begin{titlingpage}
+\maketitle
+
+\begin{abstract}
+This document describes the specifications for the research and analyses that will be performed in the project. Additionally, the design document serves to provide an overview of goals that the group aims to achieve; it will be the guide for how the project is developed and completed from this point onward. 
+\end{abstract}
+\end{titlingpage}
+
+
+\tableofcontents
+\clearpage
+
+\section{Introduction}
+In the Technology Review, our team evaluated the most important technologies critical to the success of the project. The current document expands upon the technologies and provides a description of how we will achieve our goal of analyzing the effects of compression and how it impacts query performance. 
+
+\section{Glossary}
+\subsection{Definitions, acronyms, and abbreviations}
+
+\begin{center}
+    \begin{tabular}{ | l | p{11cm} |}
+    \hline
+    \textbf{Term} & \textbf{Definition}  \\ \hline
+    Algorithm & A process or set of rules to be followed by a computer \\ \hline
+    Block & The smallest unit of storage in an Oracle Database \\ \hline
+    Central Processing Unit (CPU) & Physical processor that executes instructions  \\ \hline
+    Database & Software that stores data in an organized fashion \\ \hline
+    Hewlett-Packard (HP) & Multinational IT company that is infamous for their printing products \\ \hline
+    Input/Output (I/O) & Typically associated with the rate of how data is read or written to a physical storage medium \\ \hline
+    Oracle & Multinational IT company that specializes in enterprise solutions such as Database software and cloud systems \\ \hline
+    Oracle Database & A relational database system that is produced and supported by Oracle \\ \hline
+    PageWide Web Press & A printing division within HP that develops and supports HP's industrial digital web presses \\ \hline
+    Random Access Memory (RAM) & RAM is a form of computer data storage that stores data and machine code currently being used\\ \hline
+    \end{tabular}
+\end{center}
+
+\section{Milestones}
+\subsection{Environment Configuration}
+\subsubsection{Oracle Linux}
+Users will install Oracle Linux version 7.4 on a Virtual Box virtual machine. Allocated space for the system is 60GB, while 4GB RAM is dedicated. Maintaining the same environment will reduce discrepancies between group members when obtaining results from performance analysis.
+\subsubsection{Oracle Database}
+Oracle Database version 12.2.0.1 will be installed in the Oracle profile on a Oracle Linux virtual machine. Oracle Database is critical to the project, and it is currently used by the project facilitators. 
+\subsubsection{SQL Developer}
+SQL Developer version 17.3 will be used to query data, run experiments, and analyze results.
+\subsubsection{End Date}
+Users in the current project were expected to have completed environment configuration by November 1st 2017, and all users successfully achieved the milestone.
+
+\subsection{Research and Reverse Engineer Data Blocks and Compression Algorithms}
+\subsubsection{Reverse Engineer Data Blocks}
+Understanding how data interacts at the block level is the most important component to the success of the project. With a concrete understanding of how data blocks work, the team will be able to reverse engineer data blocks to understand the effects certain compression algorithms have. Knowledge obtained will be used to make educated judgments on how best to insert and store data in the database in order to maximize query performance and minimize storage footprint.
+\subsubsection{Reverse Engineer Compression Algorithms}
+Once the group acquires a foundational understanding of data blocks, that knowledge will be used to understand how Basic Table Compression and Advanced Row Compression manipulates data. Recognizing how the compression algorithms work will maximize our ability to accurately predict the way in which query performance and storage is effected by the way data is inserted and stored into databases.
+\subsubsection{End Date}
+Learning about and reverse engineering data blocks in a timely manner is essential to the success and momentum of the project. Expected completion date was November 15th, 2017, and all users successfully achieved the milestone. Additionally, members are expected to understand reverse engineering compression algorithms by December 8th, 2017; everyone is currently on track.
+
+\subsection{Design Experiments and Develop Tracking Scripts}
+\subsubsection{Design Experiments}
+The current team will design experiments in order to determine the effect compression has on query performance. Although not all experiments have been discussed for implementation, some experiments have already taken place. Data blocks were dumped in order to examine the effect the compression algorithm had on the rows; Tables with half a dozen columns were created to examine the effect compression has on columns; Column order was examined between multiple blocks; Data was inserted into a table and column order was evaluated. Future experiments include measuring performance between 8k, 16k, and 32k block sizes. 
+\subsubsection{Tracking Scripts}
+Tracking scripts will be crucial to assess performance in the long run. Data on CPU performance, I/O, and Memory usage will be collected to provide the team with a deep understanding of how best to insert and store data in the database.
+\subsubsection{End Date}
+The conclusion of design experimentation occurs on January 17th, 2018. The team is currently ahead of schedule, as experiments have already been conducted. Developing tracking scripts is scheduled to begin on January 17th, 2018, and is expected to finish by January 24th, 2018. 
+
+\subsection{Analyze and Present Results}
+\subsubsection{Analyze Results}
+Using data acquired from the tracking scripts milestone, the team will analyze results and make sound judgments on how to insert and store data in a database. Furthermore, data will provide insight on how query performance is affected, so the clients will be able to accurately predict query behavior. Ultimately, after analyzing results and conducting experiments, the clients will have a solution that minimizes storage footprint while not compromising query performance.
+\subsubsection{White Paper}
+The clients will then present the current project's results to the Hotsos Oracle conference. The team will write a white paper detailing all research and results, which the clients will then use as a foundation for the presentation.  
+\subsubsection{End Date}
+Analyses must be completed by January 31st, 2018, and the white paper must be finalized by March 9th, 2018 in time for the conference, which is March 18th, 2018. 
+
+\section{Data Block Reverse Engineering | Jonathan Lewis Article}
+One of our primary tasks over the course of this project is to study and reverse engineer the Oracle Database data block. Being able to study and understand compressed data at the block level will be the most effective tool for studying Oracle's Basic Compression algorithm. More specifically, we need to be able to easily read and 
+understand dumps of data blocks to an Oracle trace file.
+
+So far the most useful source of information on this subject has been an article on Oracle Basic Table Compression and data blocks by Jonathan Lewis. Using Lewis' article, we are now able to understand much of what is written in an Oracle data block dump, including how tables, rows, columns, and individual data values are represented and how to tell if a dump is from a compressed or uncompressed block. Most importantly, however, is the information Lewis provides on using the block to break down exactly how Oracle compressed the data. We now know how to find out not only what order the columns of the table were put into, but also what tokens were created for during de-duplication of the data and where and how often they are used. From this information, we can reconstruct the original data from the compressed data and have a better understanding of why the compression algorithm made the decisions it did. 
+
+Despite this progress, there is still much we don't understand about data blocks. Further study of data blocks and gaining a deeper knowledge of how they are stored is an important task of this project going forward. Areas that still require further investigation include what data does Oracle actually physically store to represent table rows, what do the various header flags and values represent, and what do all of the various bytes contained in the binary dump (bindmp) for each row represent, and what this information means for how we can most efficiently store data. Researching additional sources of information on data blocks, as well as in depth study of the actual hexadecimal data dump, are how we plan to find answers to these questions.
+
+\section{Stretch goal}
+If time permits, we may look into the following topics, or stretch goals, as another means to solve our client's current storage dilemma.
+
+\subsection{Index Compression}
+The first topic we may look into is Oracle's Index Compression for their databases. In databases, an index is a specialized data structure that takes the all of items in a given set of columns and sorts them. The advantage of indexes is that they are pre-sorted and contain a reference to the original data, greatly speeding up searches on those indexed columns; however, one of the disadvantages with indexes is that all of the data within that set of columns needs to be duplicated into the index, increasing the overall size of the table.
+
+Oracle has recognized this as an issue, so they have provided index compression options for their databases. The three possible options are Basic Index Compression, Advanced Index Compression, and Advanced Index Compression High. We will explore the Basic Index Compression option first. Just like Oracle's Basic Table Compression, Basic Index Compression can reduce the storage footprint of the indexes by using a de-duplication table. As long as the index has a higher cardinality and we can configure the optimal settings, then the index's size can be decreased. In all likelihood, the de-duplication algorithm and optimal column ordering will be similar, if not identical, to how Oracle's Basic Table Compression behaves. Because of this similarity, we will use the same concepts and design methodology for when we investigate Oracle's Basic Index Compression.
+
+If more time permits, then we will explore Oracle's Advanced Index Compression option. This option behaves very similarly to the basic option, but has one clear difference - the algorithm automatically chooses an optimal column order for you on a block per block basis. This is a vast improvement over the basic option because it removes the hassle of trying to configure the index compression. Additionally, sometimes the column order that was pre-configured may be optimal for one block, but not for another. Since the optimal order is optimized on a per-block basis, then this method should ideally get the best compression ratios. Just like when we were researching the blocks, we will re-use the same concepts for investigating "optimal" column ordering. This will behave just like Oracle's Basic Table Compression and will be compared and contrasted with it. Once we understand how it works, we will then create a suite of benchmarks that will show the performance of algorithm in its best case scenario all the way to its worst. We will then reflect upon and analyze the results, and potentially provide solutions to improve the algorithm's performance. Hopefully this will serve as a useful resource for those who are interested in Advanced Index Compression.
+
+If even more time permits, and we can acquire the licenses/environment to do so, we will explore Oracle's Advanced Index Compression High option. This option behaves identically to the advanced one except for one key difference - the new option applies a custom compression algorithm on a given block using some sort of heuristic. The advantage with this approach is that by applying a compression algorithm over a de-duplication algorithm, similar data that is not identical can be compressed, which will allow for even greater space savings. One disadvantage to this is that these compression algorithms should be more complex than the de-duplication algorithms that require more system resources to compress/decompress said data. Also, the heuristic must choose the "optimal" algorithm to use in real-time, meaning that it may not make as well informed decisions due to the strict time constraints. For this investigation we would first look into the various compression algorithms that will apply on a given block. This will most likely be very similar to the options that Oracle offers with Hybrid Columnar Compression (HCC). We would then look into the heuristic and try to determine the factors that it uses to pick a compression algorithm. Once that is determined, we would generate benchmarks showing when the heuristic performs in its best case scenario all the way to its worst. After examining heuristic performance, the team would reflect upon the results and potentially decipher if there are modifications to improve the heuristic. Finally, we will write up these results and let them serve as a reference.
+
+\section{Conclusion}
+Data block reverse engineering is the most important aspect of the project, and milestones provide structure for the team to ensure tasks are completed on time. If all milestones are achieved ahead of schedule, Index Compression will be evaluated. 
+
+\end{document}
