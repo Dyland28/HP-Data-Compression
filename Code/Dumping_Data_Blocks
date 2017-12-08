@@ -1,0 +1,13 @@
+How to dump a data block:
+
+1) Create a table and insert data
+2) Figure out the file numbers and data blocks by running:
+SELECT
+    dbms_rowid.rowid_relative_fno(rowid) REL_FNO,
+    dbms_rowid.rowid_block_number(rowid) BLOCKNO,
+    dbms_rowid.rowid_row_number(rowid) ROWNO
+FROM capstone.mytable;  <-- tablename
+
+3) Once you see the datafile and block number, run this query:
+alter system dump datafile [xx] block [yyyy]; 
+where xx = datafile number and yyyy = block number
