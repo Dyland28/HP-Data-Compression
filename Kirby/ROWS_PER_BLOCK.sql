@@ -10,17 +10,19 @@ TOTAL_ROWS NUMBER
 );
 
 INSERT INTO CAPSTONE.BLOCKS_PER_ROW
-
+/
 SELECT
-    :OWNER,
-    :TABLE_NAME,
+    :OWNER AS OWNER,
+    :TABLE_NAME AS TABLE_NAME,
     dbms_rowid.rowid_relative_fno(rowid) REL_FNO,
     dbms_rowid.rowid_block_number(rowid) BLOCKNO,
     COUNT(*) AS TOTAL_ROWS
-FROM capstone.SIZE_MATH_TEST_5
+FROM capstone.C_8K_COMP_SORT
 GROUP BY
     dbms_rowid.rowid_relative_fno(rowid),
-    dbms_rowid.rowid_block_number(rowid);
+    dbms_rowid.rowid_block_number(rowid)
+ORDER BY
+    TOTAL_ROWS DESC;
     
 COMMIT;
 
