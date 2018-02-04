@@ -1,3 +1,9 @@
+/*
+	This script creates the larger test tables
+
+	These first lines turn autoextend on for the tablespaces so the temp doesn't get full
+*/
+
 ALTER DATABASE DATAFILE '/u01/app/oracle/oradata/cdb1/pdb1/cap8k.dbf' 
     AUTOEXTEND ON;
 	
