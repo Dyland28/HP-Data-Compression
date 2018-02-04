@@ -34,7 +34,7 @@ SELECT
     'DEVICE_NUMBER_'||A AS DEVICE_NAME,
     TO_DATE(20170101, 'yyyymmdd') + NUMTODSINTERVAL(DBMS_RANDOM.VALUE(0, 31500000), 'second') AS MEASUREMENT_TIME
 FROM DUAL
-CONNECT BY LEVEL <= 1250; --Total of 1250 rows with looping 10 times
+CONNECT BY LEVEL <= 1250; --Total of 12500 rows with looping 10 times
 
 COMMIT;
 
