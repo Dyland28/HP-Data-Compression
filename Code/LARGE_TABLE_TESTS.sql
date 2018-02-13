@@ -1,3 +1,7 @@
+/*
+   Run this query for 8K NOCOMPRESS, RAND, and SORT as well as 32K SORT
+*/
+
 SELECT /*+ NOPARALLEL MONITORING */
     A.DEVICE_NAME,
     B.PRIMARY_LOCATION,
@@ -9,6 +13,10 @@ GROUP BY
     A.DEVICE_NAME,
     B.PRIMARY_LOCATION;
 
+/*
+   Run this query for 8K and 32K
+*/
+
 SELECT /*+ NOPARALLEL MONITORING */
     DEVICE_NAME,
     PRIMARY_LOCATION,
@@ -17,6 +25,10 @@ FROM PC_8K_800X_SORT_LARGE
 GROUP BY
     DEVICE_NAME,
     PRIMARY_LOCATION;
+
+/*
+   Run this query for 8K and 32K
+*/
 
 SELECT /*+ NOPARALLEL MONITORING */
     B.DEVICE_NAME,
