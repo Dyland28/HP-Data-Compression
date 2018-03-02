@@ -1,0 +1,700 @@
+	8K_800X_NOCOMPRESS_LARGE
+    SID, USERNAME  , TYPE, STATISTIC                                                 ,         DELTA, HDELTA/SEC,    %TIME, GRAPH       , NUM_WAITS,  WAITS/SEC,   AVERAGES                                    
+     59, CAPSTONE  , STAT, Requests to/from client                                   ,             5,        .32,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, opened cursors cumulative                                 ,            75,       4.87,         ,             ,          ,           ,          1 per execution
+     59, CAPSTONE  , STAT, user calls                                                ,             7,        .45,         ,             ,          ,           ,        .09 per execution
+     59, CAPSTONE  , STAT, recursive calls                                           ,           186,      12.08,         ,             ,          ,           ,   107.53us recursive CPU per recursive call
+     59, CAPSTONE  , STAT, recursive cpu usage                                       ,             2,        .13,         ,             ,          ,           ,       20ms total recursive CPU usage
+     59, CAPSTONE  , STAT, session logical reads                                     ,         67913,      4.41k,         ,             ,          ,           ,     67.92k total buffer visits
+     59, CAPSTONE  , STAT, CPU used when call started                                ,           302,      19.61,         ,             ,          ,           ,      3.02s total CPU used when call started
+     59, CAPSTONE  , STAT, CPU used by this session                                  ,           302,      19.61,         ,             ,          ,           ,      3.02s total CPU used by this session
+     59, CAPSTONE  , STAT, DB time                                                   ,          1223,      79.42,         ,             ,          ,           ,      16.31 per execution
+     59, CAPSTONE  , STAT, user I/O wait time                                        ,          1010,      65.58,         ,             ,          ,           ,      13.47 per execution
+     59, CAPSTONE  , STAT, non-idle wait time                                        ,          1010,      65.58,         ,             ,          ,           ,      13.47 per execution
+     59, CAPSTONE  , STAT, non-idle wait count                                       ,           604,      39.22,         ,             ,          ,           ,       8.05 per execution
+     59, CAPSTONE  , STAT, process last non-idle time                                ,           117,        7.6,         ,             ,          ,           ,       1.56 per execution
+     59, CAPSTONE  , STAT, enqueue requests                                          ,             7,        .45,         ,             ,          ,           ,        .09 per execution
+     59, CAPSTONE  , STAT, enqueue releases                                          ,             7,        .45,         ,             ,          ,           ,        .09 per execution
+     59, CAPSTONE  , STAT, physical read total IO requests                           ,           571,      37.08,         ,             ,          ,           ,    970.47k bytes per request
+     59, CAPSTONE  , STAT, physical read total multi block requests                  ,           530,      34.42,         ,             ,          ,           ,         41 total single block read requests
+     59, CAPSTONE  , STAT, physical read total bytes                                 ,     554139648,     35.98M,         ,             ,          ,           ,      7.39M per execution
+     59, CAPSTONE  , STAT, cell physical IO interconnect bytes                       ,     554139648,     35.98M,         ,             ,          ,           ,      7.39M per execution
+     59, CAPSTONE  , STAT, db block gets                                             ,             8,        .52,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, db block gets from cache                                  ,             8,        .52,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, db block gets from cache (fastpath)                       ,             8,        .52,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, consistent gets                                           ,         67905,      4.41k,         ,             ,          ,           ,      905.4 per execution
+     59, CAPSTONE  , STAT, consistent gets from cache                                ,           343,      22.27,         ,             ,          ,           ,       4.57 per execution
+     59, CAPSTONE  , STAT, consistent gets pin                                       ,           226,      14.68,         ,             ,          ,           ,       3.01 per execution
+     59, CAPSTONE  , STAT, consistent gets pin (fastpath)                            ,           201,      13.05,         ,             ,          ,           ,       2.68 per execution
+     59, CAPSTONE  , STAT, consistent gets examination                               ,           117,        7.6,         ,             ,          ,           ,       1.56 per execution
+     59, CAPSTONE  , STAT, consistent gets examination (fastpath)                    ,           110,       7.14,         ,             ,          ,           ,       1.47 per execution
+     59, CAPSTONE  , STAT, consistent gets direct                                    ,         67562,      4.39k,         ,             ,          ,           ,     900.83 per execution
+     59, CAPSTONE  , STAT, logical read bytes from cache                             ,       2875392,    186.71k,         ,             ,          ,           ,     38.34k per execution
+     59, CAPSTONE  , STAT, physical reads                                            ,         67644,      4.39k,         ,             ,          ,           ,     901.92 per execution
+     59, CAPSTONE  , STAT, physical reads cache                                      ,            82,       5.32,         ,             ,          ,           ,       1.09 per execution
+     59, CAPSTONE  , STAT, physical reads direct                                     ,         67562,      4.39k,         ,             ,          ,           ,     900.83 per execution
+     59, CAPSTONE  , STAT, physical read IO requests                                 ,           571,      37.08,         ,             ,          ,           ,    970.47k bytes per request
+     59, CAPSTONE  , STAT, physical read bytes                                       ,     554139648,     35.98M,         ,             ,          ,           ,      7.39M per execution
+     59, CAPSTONE  , STAT, free buffer requested                                     ,            82,       5.32,         ,             ,          ,           ,       1.09 per execution
+     59, CAPSTONE  , STAT, physical reads cache prefetch                             ,            50,       3.25,         ,             ,          ,           ,        .67 per execution
+     59, CAPSTONE  , STAT, shared hash latch upgrades - no wait                      ,            12,        .78,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, calls to kcmgcs                                           ,            29,       1.88,         ,             ,          ,           ,        .39 per execution
+     59, CAPSTONE  , STAT, calls to get snapshot scn: kcmgss                         ,            82,       5.32,         ,             ,          ,           ,       1.09 per execution
+     59, CAPSTONE  , STAT, file io service time                                      ,          2222,     144.29,         ,             ,          ,           ,     3.89us bad guess of IO service time per IO request
+     59, CAPSTONE  , STAT, file io wait time                                         ,      10090286,    655.22k,         ,             ,          ,           ,    17.67ms bad guess of IO wait time per IO request
+     59, CAPSTONE  , STAT, Number of read IOs issued                                 ,           539,         35,         ,             ,          ,           ,       7.19 per execution
+     59, CAPSTONE  , STAT, no work - consistent read gets                            ,         67750,       4.4k,         ,             ,          ,           ,     903.33 per execution
+     59, CAPSTONE  , STAT, table scans (short tables)                                ,             7,        .45,         ,             ,          ,           ,        .09 per execution
+     59, CAPSTONE  , STAT, table scans (long tables)                                 ,             1,        .06,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, table scans (direct read)                                 ,             1,        .06,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, table scan rows gotten                                    ,      10014834,    650.32k,         ,             ,          ,           ,    133.53k per execution
+     59, CAPSTONE  , STAT, table scan disk non-IMC rows gotten                       ,      10014834,    650.32k,         ,             ,          ,           ,    133.53k per execution
+     59, CAPSTONE  , STAT, table scan blocks gotten                                  ,         67662,      4.39k,         ,             ,          ,           ,     902.16 per execution
+     59, CAPSTONE  , STAT, table fetch by rowid                                      ,            35,       2.27,         ,             ,          ,           ,        .47 per execution
+     59, CAPSTONE  , STAT, cluster key scans                                         ,            24,       1.56,         ,             ,          ,           ,        .32 per execution
+     59, CAPSTONE  , STAT, cluster key scan block gets                               ,            26,       1.69,         ,             ,          ,           ,        .35 per execution
+     59, CAPSTONE  , STAT, rows fetched via callback                                 ,             8,        .52,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, index fetch by key                                        ,            39,       2.53,         ,             ,          ,           ,        .52 per execution
+     59, CAPSTONE  , STAT, index scans kdiixs1                                       ,            34,       2.21,         ,             ,          ,           ,        .45 per execution
+     59, CAPSTONE  , STAT, sql area evicted                                          ,             2,        .13,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, CCursor + sql area evicted                                ,             3,        .19,         ,             ,          ,           ,        .04 per execution
+     59, CAPSTONE  , STAT, session cursor cache hits                                 ,            71,       4.61,         ,             ,          ,           ,         65 softparses avoided thanks to cursor cache
+     59, CAPSTONE  , STAT, session cursor cache count                                ,             1,        .06,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, cursor authentications                                    ,             1,        .06,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, buffer is pinned count                                    ,             8,        .52,         ,             ,          ,           ,        .01 % buffer gets avoided thanks to buffer pin caching
+     59, CAPSTONE  , STAT, buffer is not pinned count                                ,           190,      12.34,         ,             ,          ,           ,       2.53 per execution
+     59, CAPSTONE  , STAT, workarea executions - optimal                             ,             9,        .58,         ,             ,          ,           ,        .12 per execution
+     59, CAPSTONE  , STAT, parse time cpu                                            ,             1,        .06,         ,             ,          ,           ,       10ms total parse time CPU
+     59, CAPSTONE  , STAT, parse time elapsed                                        ,             2,        .13,         ,             ,          ,           ,       20ms total parse time elapsed
+     59, CAPSTONE  , STAT, parse count (total)                                       ,             6,        .39,         ,             ,          ,           ,        .75 softparses per hardparse
+     59, CAPSTONE  , STAT, parse count (hard)                                        ,             8,        .52,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, execute count                                             ,            75,       4.87,         ,             ,          ,           ,       12.5 executions per parse
+     59, CAPSTONE  , STAT, bytes sent via SQL*Net to client                          ,          4499,     292.14,         ,             ,          ,           ,      899.8 bytes per roundtrip
+     59, CAPSTONE  , STAT, bytes received via SQL*Net from client                    ,           398,      25.84,         ,             ,          ,           ,       79.6 bytes per roundtrip
+     59, CAPSTONE  , STAT, SQL*Net roundtrips to/from client                         ,             5,        .32,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, sorts (memory)                                            ,            17,        1.1,         ,             ,          ,           ,        .23 per execution
+     59, CAPSTONE  , STAT, sorts (rows)                                              ,            20,        1.3,         ,             ,          ,           ,        .27 per execution
+     59, CAPSTONE  , TIME, hard parse elapsed time                                   ,         14720,   955.85us,      .1%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, parse time elapsed                                        ,         15912,     1.03ms,      .1%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, DB CPU                                                    ,       3023497,   196.33ms,    19.6%, [@@        ],          ,           , 
+     59, CAPSTONE  , TIME, sql execute elapsed time                                  ,      12218623,   793.42ms,    79.3%, [########  ],          ,           , 
+     59, CAPSTONE  , TIME, DB time                                                   ,      12224612,   793.81ms,    79.4%, [########  ],          ,           ,       -.58 % unaccounted time
+     59, CAPSTONE  , WAIT, db file sequential read                                   ,         16696,     1.08ms,      .1%, [          ],        24,       1.56,   695.67us average wait
+     59, CAPSTONE  , WAIT, db file scattered read                                    ,          9468,   614.81us,      .1%, [          ],         8,        .52,     1.18ms average wait
+     59, CAPSTONE  , WAIT, direct path read                                          ,      10071818,   654.02ms,    65.4%, [WWWWWWW   ],       539,         35,    18.69ms average wait
+     59, CAPSTONE  , WAIT, SQL*Net message to client                                 ,             8,      .52us,      .0%, [          ],         5,        .32,      1.6us average wait
+     59, CAPSTONE  , WAIT, SQL*Net message from client                               ,       3265277,   212.03ms,    21.2%, [WWW       ],         5,        .32,   653.06ms average wait
+     59, CAPSTONE  , WAIT, events in waitclass Other                                 ,           314,    20.39us,      .0%, [          ],        28,       1.82,    11.21us average wait
+ 
+	8K_800X_RAND_LARGE
+    SID, USERNAME  , TYPE, STATISTIC                                                 ,         DELTA, HDELTA/SEC,    %TIME, GRAPH       , NUM_WAITS,  WAITS/SEC,   AVERAGES                                    
+     59, CAPSTONE  , STAT, Requests to/from client                                   ,             5,        .34,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, opened cursors cumulative                                 ,           143,       9.84,         ,             ,          ,           ,          1 per execution
+     59, CAPSTONE  , STAT, opened cursors current                                    ,            -1,       -.07,         ,             ,          ,           ,         -1 actual value in end of snapshot
+     59, CAPSTONE  , STAT, user calls                                                ,             7,        .48,         ,             ,          ,           ,        .05 per execution
+     59, CAPSTONE  , STAT, recursive calls                                           ,           221,      15.21,         ,             ,          ,           ,      181us recursive CPU per recursive call
+     59, CAPSTONE  , STAT, recursive cpu usage                                       ,             4,        .28,         ,             ,          ,           ,       40ms total recursive CPU usage
+     59, CAPSTONE  , STAT, session logical reads                                     ,         37093,      2.55k,         ,             ,          ,           ,      37.1k total buffer visits
+     59, CAPSTONE  , STAT, CPU used by this session                                  ,           274,      18.85,         ,             ,          ,           ,      2.74s total CPU used by this session
+     59, CAPSTONE  , STAT, DB time                                                   ,           476,      32.75,         ,             ,          ,           ,       3.33 per execution
+     59, CAPSTONE  , STAT, user I/O wait time                                        ,           202,       13.9,         ,             ,          ,           ,       1.41 per execution
+     59, CAPSTONE  , STAT, non-idle wait time                                        ,           202,       13.9,         ,             ,          ,           ,       1.41 per execution
+     59, CAPSTONE  , STAT, non-idle wait count                                       ,           384,      26.42,         ,             ,          ,           ,       2.69 per execution
+     59, CAPSTONE  , STAT, process last non-idle time                                ,            81,       5.57,         ,             ,          ,           ,        .57 per execution
+     59, CAPSTONE  , STAT, enqueue requests                                          ,            12,        .83,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, enqueue releases                                          ,            12,        .83,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, physical read total IO requests                           ,           350,      24.08,         ,             ,          ,           ,    857.07k bytes per request
+     59, CAPSTONE  , STAT, physical read total multi block requests                  ,           287,      19.75,         ,             ,          ,           ,         63 total single block read requests
+     59, CAPSTONE  , STAT, physical read total bytes                                 ,     299974656,     20.64M,         ,             ,          ,           ,       2.1M per execution
+     59, CAPSTONE  , STAT, cell physical IO interconnect bytes                       ,     299974656,     20.64M,         ,             ,          ,           ,       2.1M per execution
+     59, CAPSTONE  , STAT, db block gets                                             ,             8,        .55,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, db block gets from cache                                  ,             8,        .55,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, db block gets from cache (fastpath)                       ,             8,        .55,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, consistent gets                                           ,         37085,      2.55k,         ,             ,          ,           ,     259.34 per execution
+     59, CAPSTONE  , STAT, consistent gets from cache                                ,           551,      37.91,         ,             ,          ,           ,       3.85 per execution
+     59, CAPSTONE  , STAT, consistent gets pin                                       ,           325,      22.36,         ,             ,          ,           ,       2.27 per execution
+     59, CAPSTONE  , STAT, consistent gets pin (fastpath)                            ,           282,       19.4,         ,             ,          ,           ,       1.97 per execution
+     59, CAPSTONE  , STAT, consistent gets examination                               ,           226,      15.55,         ,             ,          ,           ,       1.58 per execution
+     59, CAPSTONE  , STAT, consistent gets examination (fastpath)                    ,           214,      14.72,         ,             ,          ,           ,        1.5 per execution
+     59, CAPSTONE  , STAT, consistent gets direct                                    ,         36534,      2.51k,         ,             ,          ,           ,     255.48 per execution
+     59, CAPSTONE  , STAT, logical read bytes from cache                             ,       4579328,    315.09k,         ,             ,          ,           ,     32.02k per execution
+     59, CAPSTONE  , STAT, physical reads                                            ,         36618,      2.52k,         ,             ,          ,           ,     256.07 per execution
+     59, CAPSTONE  , STAT, physical reads cache                                      ,            84,       5.78,         ,             ,          ,           ,        .59 per execution
+     59, CAPSTONE  , STAT, physical reads direct                                     ,         36534,      2.51k,         ,             ,          ,           ,     255.48 per execution
+     59, CAPSTONE  , STAT, physical read IO requests                                 ,           350,      24.08,         ,             ,          ,           ,    857.07k bytes per request
+     59, CAPSTONE  , STAT, physical read bytes                                       ,     299974656,     20.64M,         ,             ,          ,           ,       2.1M per execution
+     59, CAPSTONE  , STAT, free buffer requested                                     ,            84,       5.78,         ,             ,          ,           ,        .59 per execution
+     59, CAPSTONE  , STAT, physical reads cache prefetch                             ,            29,          2,         ,             ,          ,           ,         .2 per execution
+     59, CAPSTONE  , STAT, shared hash latch upgrades - no wait                      ,            16,        1.1,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, calls to kcmgcs                                           ,            33,       2.27,         ,             ,          ,           ,        .23 per execution
+     59, CAPSTONE  , STAT, calls to get snapshot scn: kcmgss                         ,           166,      11.42,         ,             ,          ,           ,       1.16 per execution
+     59, CAPSTONE  , STAT, file io service time                                      ,          1261,      86.77,         ,             ,          ,           ,      3.6us bad guess of IO service time per IO request
+     59, CAPSTONE  , STAT, file io wait time                                         ,       2015486,    138.68k,         ,             ,          ,           ,     5.76ms bad guess of IO wait time per IO request
+     59, CAPSTONE  , STAT, Number of read IOs issued                                 ,           295,       20.3,         ,             ,          ,           ,       2.06 per execution
+     59, CAPSTONE  , STAT, no work - consistent read gets                            ,         36817,      2.53k,         ,             ,          ,           ,     257.46 per execution
+     59, CAPSTONE  , STAT, table scans (short tables)                                ,             9,        .62,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, table scans (long tables)                                 ,             1,        .07,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, table scans (direct read)                                 ,             1,        .07,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, table scan rows gotten                                    ,      10015612,    689.14k,         ,             ,          ,           ,     70.04k per execution
+     59, CAPSTONE  , STAT, table scan disk non-IMC rows gotten                       ,      10015612,    689.14k,         ,             ,          ,           ,     70.04k per execution
+     59, CAPSTONE  , STAT, table scan blocks gotten                                  ,         36624,      2.52k,         ,             ,          ,           ,     256.11 per execution
+     59, CAPSTONE  , STAT, table fetch by rowid                                      ,            67,       4.61,         ,             ,          ,           ,        .47 per execution
+     59, CAPSTONE  , STAT, cluster key scans                                         ,            58,       3.99,         ,             ,          ,           ,        .41 per execution
+     59, CAPSTONE  , STAT, cluster key scan block gets                               ,            63,       4.33,         ,             ,          ,           ,        .44 per execution
+     59, CAPSTONE  , STAT, rows fetched via callback                                 ,             7,        .48,         ,             ,          ,           ,        .05 per execution
+     59, CAPSTONE  , STAT, index fetch by key                                        ,            74,       5.09,         ,             ,          ,           ,        .52 per execution
+     59, CAPSTONE  , STAT, index scans kdiixs1                                       ,            68,       4.68,         ,             ,          ,           ,        .48 per execution
+     59, CAPSTONE  , STAT, sql area evicted                                          ,            11,        .76,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, CCursor + sql area evicted                                ,            23,       1.58,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, session cursor cache hits                                 ,           141,        9.7,         ,             ,          ,           ,        138 softparses avoided thanks to cursor cache
+     59, CAPSTONE  , STAT, cursor authentications                                    ,             1,        .07,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, buffer is pinned count                                    ,             9,        .62,         ,             ,          ,           ,        .02 % buffer gets avoided thanks to buffer pin caching
+     59, CAPSTONE  , STAT, buffer is not pinned count                                ,           365,      25.11,         ,             ,          ,           ,       2.55 per execution
+     59, CAPSTONE  , STAT, workarea executions - optimal                             ,            20,       1.38,         ,             ,          ,           ,        .14 per execution
+     59, CAPSTONE  , STAT, parse time cpu                                            ,             4,        .28,         ,             ,          ,           ,       40ms total parse time CPU
+     59, CAPSTONE  , STAT, parse time elapsed                                        ,             4,        .28,         ,             ,          ,           ,       40ms total parse time elapsed
+     59, CAPSTONE  , STAT, parse count (total)                                       ,             3,        .21,         ,             ,          ,           ,        .25 softparses per hardparse
+     59, CAPSTONE  , STAT, parse count (hard)                                        ,            12,        .83,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, execute count                                             ,           143,       9.84,         ,             ,          ,           ,      47.67 executions per parse
+     59, CAPSTONE  , STAT, bytes sent via SQL*Net to client                          ,          4964,     341.56,         ,             ,          ,           ,      992.8 bytes per roundtrip
+     59, CAPSTONE  , STAT, bytes received via SQL*Net from client                    ,           386,      26.56,         ,             ,          ,           ,       77.2 bytes per roundtrip
+     59, CAPSTONE  , STAT, SQL*Net roundtrips to/from client                         ,             5,        .34,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, sorts (memory)                                            ,            49,       3.37,         ,             ,          ,           ,        .34 per execution
+     59, CAPSTONE  , STAT, sorts (rows)                                              ,           500,       34.4,         ,             ,          ,           ,        3.5 per execution
+     59, CAPSTONE  , TIME, hard parse elapsed time                                   ,         41454,     2.85ms,      .3%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, repeated bind elapsed time                                ,           109,      7.5us,      .0%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, parse time elapsed                                        ,         42010,     2.89ms,      .3%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, DB CPU                                                    ,       2742909,   188.73ms,    18.9%, [@@        ],          ,           , 
+     59, CAPSTONE  , TIME, sql execute elapsed time                                  ,       4754092,   327.11ms,    32.7%, [####      ],          ,           , 
+     59, CAPSTONE  , TIME, DB time                                                   ,       4760935,   327.58ms,    32.8%, [####      ],          ,           ,        .43 % unaccounted time
+     59, CAPSTONE  , WAIT, db file sequential read                                   ,         85244,     5.87ms,      .6%, [W         ],        50,       3.44,      1.7ms average wait
+     59, CAPSTONE  , WAIT, db file scattered read                                    ,          5092,   350.36us,      .0%, [          ],         5,        .34,     1.02ms average wait
+     59, CAPSTONE  , WAIT, direct path read                                          ,       1929382,   132.75ms,    13.3%, [WW        ],       295,       20.3,     6.54ms average wait
+     59, CAPSTONE  , WAIT, SQL*Net message to client                                 ,             9,      .62us,      .0%, [          ],         5,        .34,      1.8us average wait
+     59, CAPSTONE  , WAIT, SQL*Net message from client                               ,       9710474,   668.15ms,    66.8%, [WWWWWWW   ],         5,        .34,      1.94s average wait
+     59, CAPSTONE  , WAIT, events in waitclass Other                                 ,           240,    16.51us,      .0%, [          ],        29,          2,     8.28us average wait
+ 
+	8K_800X_SORT_LARGE
+    SID, USERNAME  , TYPE, STATISTIC                                                 ,         DELTA, HDELTA/SEC,    %TIME, GRAPH       , NUM_WAITS,  WAITS/SEC,   AVERAGES                                    
+     59, CAPSTONE  , STAT, Requests to/from client                                   ,             5,        .34,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, opened cursors cumulative                                 ,            45,       3.08,         ,             ,          ,           ,          1 per execution
+     59, CAPSTONE  , STAT, user calls                                                ,             7,        .48,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, recursive calls                                           ,            65,       4.44,         ,             ,          ,           ,   153.85us recursive CPU per recursive call
+     59, CAPSTONE  , STAT, recursive cpu usage                                       ,             1,        .07,         ,             ,          ,           ,       10ms total recursive CPU usage
+     59, CAPSTONE  , STAT, session logical reads                                     ,         27774,       1.9k,         ,             ,          ,           ,     27.78k total buffer visits
+     59, CAPSTONE  , STAT, CPU used when call started                                ,           209,      14.28,         ,             ,          ,           ,      2.09s total CPU used when call started
+     59, CAPSTONE  , STAT, CPU used by this session                                  ,           209,      14.28,         ,             ,          ,           ,      2.09s total CPU used by this session
+     59, CAPSTONE  , STAT, DB time                                                   ,           370,      25.29,         ,             ,          ,           ,       8.22 per execution
+     59, CAPSTONE  , STAT, user I/O wait time                                        ,           161,         11,         ,             ,          ,           ,       3.58 per execution
+     59, CAPSTONE  , STAT, non-idle wait time                                        ,           162,      11.07,         ,             ,          ,           ,        3.6 per execution
+     59, CAPSTONE  , STAT, non-idle wait count                                       ,           278,         19,         ,             ,          ,           ,       6.18 per execution
+     59, CAPSTONE  , STAT, process last non-idle time                                ,            54,       3.69,         ,             ,          ,           ,        1.2 per execution
+     59, CAPSTONE  , STAT, enqueue requests                                          ,             5,        .34,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, enqueue releases                                          ,             5,        .34,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, physical read total IO requests                           ,           244,      16.68,         ,             ,          ,           ,    926.67k bytes per request
+     59, CAPSTONE  , STAT, physical read total multi block requests                  ,           216,      14.76,         ,             ,          ,           ,         28 total single block read requests
+     59, CAPSTONE  , STAT, physical read total bytes                                 ,     226107392,     15.45M,         ,             ,          ,           ,      5.02M per execution
+     59, CAPSTONE  , STAT, cell physical IO interconnect bytes                       ,     226107392,     15.45M,         ,             ,          ,           ,      5.02M per execution
+     59, CAPSTONE  , STAT, db block gets                                             ,             7,        .48,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, db block gets from cache                                  ,             7,        .48,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, db block gets from cache (fastpath)                       ,             7,        .48,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, consistent gets                                           ,         27767,       1.9k,         ,             ,          ,           ,     617.04 per execution
+     59, CAPSTONE  , STAT, consistent gets from cache                                ,           214,      14.63,         ,             ,          ,           ,       4.76 per execution
+     59, CAPSTONE  , STAT, consistent gets pin                                       ,           145,       9.91,         ,             ,          ,           ,       3.22 per execution
+     59, CAPSTONE  , STAT, consistent gets pin (fastpath)                            ,           129,       8.82,         ,             ,          ,           ,       2.87 per execution
+     59, CAPSTONE  , STAT, consistent gets examination                               ,            69,       4.72,         ,             ,          ,           ,       1.53 per execution
+     59, CAPSTONE  , STAT, consistent gets examination (fastpath)                    ,            65,       4.44,         ,             ,          ,           ,       1.44 per execution
+     59, CAPSTONE  , STAT, consistent gets direct                                    ,         27553,      1.88k,         ,             ,          ,           ,     612.29 per execution
+     59, CAPSTONE  , STAT, logical read bytes from cache                             ,       1810432,    123.73k,         ,             ,          ,           ,     40.23k per execution
+     59, CAPSTONE  , STAT, physical reads                                            ,         27601,      1.89k,         ,             ,          ,           ,     613.36 per execution
+     59, CAPSTONE  , STAT, physical reads cache                                      ,            48,       3.28,         ,             ,          ,           ,       1.07 per execution
+     59, CAPSTONE  , STAT, physical reads direct                                     ,         27553,      1.88k,         ,             ,          ,           ,     612.29 per execution
+     59, CAPSTONE  , STAT, physical read IO requests                                 ,           244,      16.68,         ,             ,          ,           ,    926.67k bytes per request
+     59, CAPSTONE  , STAT, physical read bytes                                       ,     226107392,     15.45M,         ,             ,          ,           ,      5.02M per execution
+     59, CAPSTONE  , STAT, free buffer requested                                     ,            48,       3.28,         ,             ,          ,           ,       1.07 per execution
+     59, CAPSTONE  , STAT, physical reads cache prefetch                             ,            28,       1.91,         ,             ,          ,           ,        .62 per execution
+     59, CAPSTONE  , STAT, shared hash latch upgrades - no wait                      ,             5,        .34,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, calls to kcmgcs                                           ,            23,       1.57,         ,             ,          ,           ,        .51 per execution
+     59, CAPSTONE  , STAT, calls to get snapshot scn: kcmgss                         ,            51,       3.49,         ,             ,          ,           ,       1.13 per execution
+     59, CAPSTONE  , STAT, file io service time                                      ,           940,      64.24,         ,             ,          ,           ,     3.85us bad guess of IO service time per IO request
+     59, CAPSTONE  , STAT, file io wait time                                         ,       1613684,    110.29k,         ,             ,          ,           ,     6.61ms bad guess of IO wait time per IO request
+     59, CAPSTONE  , STAT, Number of read IOs issued                                 ,           224,      15.31,         ,             ,          ,           ,       4.98 per execution
+     59, CAPSTONE  , STAT, no work - consistent read gets                            ,         27669,      1.89k,         ,             ,          ,           ,     614.87 per execution
+     59, CAPSTONE  , STAT, table scans (short tables)                                ,             5,        .34,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, table scans (long tables)                                 ,             1,        .07,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, table scans (direct read)                                 ,             1,        .07,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, table scan rows gotten                                    ,      10014056,    684.42k,         ,             ,          ,           ,    222.53k per execution
+     59, CAPSTONE  , STAT, table scan disk non-IMC rows gotten                       ,      10014056,    684.42k,         ,             ,          ,           ,    222.53k per execution
+     59, CAPSTONE  , STAT, table scan blocks gotten                                  ,         27614,      1.89k,         ,             ,          ,           ,     613.64 per execution
+     59, CAPSTONE  , STAT, table fetch by rowid                                      ,            26,       1.78,         ,             ,          ,           ,        .58 per execution
+     59, CAPSTONE  , STAT, cluster key scans                                         ,            11,        .75,         ,             ,          ,           ,        .24 per execution
+     59, CAPSTONE  , STAT, cluster key scan block gets                               ,            11,        .75,         ,             ,          ,           ,        .24 per execution
+     59, CAPSTONE  , STAT, rows fetched via callback                                 ,             5,        .34,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, index fetch by key                                        ,            21,       1.44,         ,             ,          ,           ,        .47 per execution
+     59, CAPSTONE  , STAT, index scans kdiixs1                                       ,            22,        1.5,         ,             ,          ,           ,        .49 per execution
+     59, CAPSTONE  , STAT, sql area evicted                                          ,             2,        .14,         ,             ,          ,           ,        .04 per execution
+     59, CAPSTONE  , STAT, CCursor + sql area evicted                                ,             3,        .21,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, session cursor cache hits                                 ,            43,       2.94,         ,             ,          ,           ,         40 softparses avoided thanks to cursor cache
+     59, CAPSTONE  , STAT, cursor authentications                                    ,             1,        .07,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, buffer is pinned count                                    ,             8,        .55,         ,             ,          ,           ,        .03 % buffer gets avoided thanks to buffer pin caching
+     59, CAPSTONE  , STAT, buffer is not pinned count                                ,           121,       8.27,         ,             ,          ,           ,       2.69 per execution
+     59, CAPSTONE  , STAT, workarea executions - optimal                             ,             7,        .48,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, parse time cpu                                            ,             1,        .07,         ,             ,          ,           ,       10ms total parse time CPU
+     59, CAPSTONE  , STAT, parse time elapsed                                        ,             1,        .07,         ,             ,          ,           ,       10ms total parse time elapsed
+     59, CAPSTONE  , STAT, parse count (total)                                       ,             3,        .21,         ,             ,          ,           ,         .6 softparses per hardparse
+     59, CAPSTONE  , STAT, parse count (hard)                                        ,             5,        .34,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, execute count                                             ,            45,       3.08,         ,             ,          ,           ,         15 executions per parse
+     59, CAPSTONE  , STAT, bytes sent via SQL*Net to client                          ,          4504,     307.83,         ,             ,          ,           ,      900.8 bytes per roundtrip
+     59, CAPSTONE  , STAT, bytes received via SQL*Net from client                    ,           386,      26.38,         ,             ,          ,           ,       77.2 bytes per roundtrip
+     59, CAPSTONE  , STAT, SQL*Net roundtrips to/from client                         ,             5,        .34,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, sorts (memory)                                            ,             7,        .48,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, sorts (rows)                                              ,            13,        .89,         ,             ,          ,           ,        .29 per execution
+     59, CAPSTONE  , TIME, hard parse elapsed time                                   ,          9682,   661.72us,      .1%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, parse time elapsed                                        ,         10347,   707.17us,      .1%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, DB CPU                                                    ,       2088687,   142.75ms,    14.3%, [@@        ],          ,           , 
+     59, CAPSTONE  , TIME, sql execute elapsed time                                  ,       3695272,   252.56ms,    25.3%, [###       ],          ,           , 
+     59, CAPSTONE  , TIME, DB time                                                   ,       3700417,   252.91ms,    25.3%, [###       ],          ,           ,       1.14 % unaccounted time
+     59, CAPSTONE  , WAIT, db file sequential read                                   ,         86307,      5.9ms,      .6%, [W         ],        15,       1.03,     5.75ms average wait
+     59, CAPSTONE  , WAIT, db file scattered read                                    ,          1302,    88.99us,      .0%, [          ],         5,        .34,    260.4us average wait
+     59, CAPSTONE  , WAIT, direct path read                                          ,       1529144,   104.51ms,    10.5%, [W         ],       224,      15.31,     6.83ms average wait
+     59, CAPSTONE  , WAIT, SQL*Net message to client                                 ,             8,      .55us,      .0%, [          ],         5,        .34,      1.6us average wait
+     59, CAPSTONE  , WAIT, SQL*Net message from client                               ,      10764842,   735.73ms,    73.6%, [WWWWWWWW  ],         5,        .34,      2.15s average wait
+     59, CAPSTONE  , WAIT, events in waitclass Other                                 ,           245,    16.74us,      .0%, [          ],        29,       1.98,     8.45us average wait
+ 
+	32K_800X_SORT_LARGE
+    SID, USERNAME  , TYPE, STATISTIC                                                 ,         DELTA, HDELTA/SEC,    %TIME, GRAPH       , NUM_WAITS,  WAITS/SEC,   AVERAGES                                    
+     59, CAPSTONE  , STAT, Requests to/from client                                   ,             5,        .34,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, opened cursors cumulative                                 ,           144,       9.84,         ,             ,          ,           ,          1 per execution
+     59, CAPSTONE  , STAT, opened cursors current                                    ,            -1,       -.07,         ,             ,          ,           ,         -1 actual value in end of snapshot
+     59, CAPSTONE  , STAT, user calls                                                ,             8,        .55,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, recursive calls                                           ,           288,      19.67,         ,             ,          ,           ,   104.17us recursive CPU per recursive call
+     59, CAPSTONE  , STAT, recursive cpu usage                                       ,             3,         .2,         ,             ,          ,           ,       30ms total recursive CPU usage
+     59, CAPSTONE  , STAT, session logical reads                                     ,          7282,     497.36,         ,             ,          ,           ,      7.29k total buffer visits
+     59, CAPSTONE  , STAT, CPU used by this session                                  ,           205,         14,         ,             ,          ,           ,      2.05s total CPU used by this session
+     59, CAPSTONE  , STAT, DB time                                                   ,           418,      28.55,         ,             ,          ,           ,        2.9 per execution
+     59, CAPSTONE  , STAT, user I/O wait time                                        ,           212,      14.48,         ,             ,          ,           ,       1.47 per execution
+     59, CAPSTONE  , STAT, non-idle wait time                                        ,           213,      14.55,         ,             ,          ,           ,       1.48 per execution
+     59, CAPSTONE  , STAT, non-idle wait count                                       ,           189,      12.91,         ,             ,          ,           ,       1.31 per execution
+     59, CAPSTONE  , STAT, process last non-idle time                                ,            62,       4.23,         ,             ,          ,           ,        .43 per execution
+     59, CAPSTONE  , STAT, session uga memory max                                    ,       6174864,    421.74k,         ,             ,          ,           ,      6.17M actual value in end of snapshot
+     59, CAPSTONE  , STAT, enqueue requests                                          ,            12,        .82,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, enqueue releases                                          ,            12,        .82,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, physical read total IO requests                           ,           155,      10.59,         ,             ,          ,           ,      1.43M bytes per request
+     59, CAPSTONE  , STAT, physical read total multi block requests                  ,            91,       6.22,         ,             ,          ,           ,         64 total single block read requests
+     59, CAPSTONE  , STAT, physical read total bytes                                 ,     222150656,     15.17M,         ,             ,          ,           ,      1.54M per execution
+     59, CAPSTONE  , STAT, cell physical IO interconnect bytes                       ,     222150656,     15.17M,         ,             ,          ,           ,      1.54M per execution
+     59, CAPSTONE  , STAT, db block gets                                             ,             7,        .48,         ,             ,          ,           ,        .05 per execution
+     59, CAPSTONE  , STAT, db block gets from cache                                  ,             7,        .48,         ,             ,          ,           ,        .05 per execution
+     59, CAPSTONE  , STAT, db block gets from cache (fastpath)                       ,             5,        .34,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, consistent gets                                           ,          7275,     496.88,         ,             ,          ,           ,      50.52 per execution
+     59, CAPSTONE  , STAT, consistent gets from cache                                ,           521,      35.58,         ,             ,          ,           ,       3.62 per execution
+     59, CAPSTONE  , STAT, consistent gets pin                                       ,           295,      20.15,         ,             ,          ,           ,       2.05 per execution
+     59, CAPSTONE  , STAT, consistent gets pin (fastpath)                            ,           246,       16.8,         ,             ,          ,           ,       1.71 per execution
+     59, CAPSTONE  , STAT, consistent gets examination                               ,           226,      15.44,         ,             ,          ,           ,       1.57 per execution
+     59, CAPSTONE  , STAT, consistent gets examination (fastpath)                    ,           213,      14.55,         ,             ,          ,           ,       1.48 per execution
+     59, CAPSTONE  , STAT, consistent gets direct                                    ,          6754,      461.3,         ,             ,          ,           ,       46.9 per execution
+     59, CAPSTONE  , STAT, logical read bytes from cache                             ,       5062656,    345.78k,         ,             ,          ,           ,     35.16k per execution
+     59, CAPSTONE  , STAT, physical reads                                            ,          6823,     466.01,         ,             ,          ,           ,      47.38 per execution
+     59, CAPSTONE  , STAT, physical reads cache                                      ,            69,       4.71,         ,             ,          ,           ,        .48 per execution
+     59, CAPSTONE  , STAT, physical reads direct                                     ,          6754,      461.3,         ,             ,          ,           ,       46.9 per execution
+     59, CAPSTONE  , STAT, physical read IO requests                                 ,           155,      10.59,         ,             ,          ,           ,      1.43M bytes per request
+     59, CAPSTONE  , STAT, physical read bytes                                       ,     222150656,     15.17M,         ,             ,          ,           ,      1.54M per execution
+     59, CAPSTONE  , STAT, free buffer requested                                     ,            69,       4.71,         ,             ,          ,           ,        .48 per execution
+     59, CAPSTONE  , STAT, physical reads cache prefetch                             ,             5,        .34,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, shared hash latch upgrades - no wait                      ,            34,       2.32,         ,             ,          ,           ,        .24 per execution
+     59, CAPSTONE  , STAT, calls to kcmgcs                                           ,            31,       2.12,         ,             ,          ,           ,        .22 per execution
+     59, CAPSTONE  , STAT, calls to get snapshot scn: kcmgss                         ,           167,      11.41,         ,             ,          ,           ,       1.16 per execution
+     59, CAPSTONE  , STAT, file io service time                                      ,           744,      50.81,         ,             ,          ,           ,      4.8us bad guess of IO service time per IO request
+     59, CAPSTONE  , STAT, file io wait time                                         ,       2121621,    144.91k,         ,             ,          ,           ,    13.69ms bad guess of IO wait time per IO request
+     59, CAPSTONE  , STAT, Number of read IOs issued                                 ,            91,       6.22,         ,             ,          ,           ,        .63 per execution
+     59, CAPSTONE  , STAT, no work - consistent read gets                            ,          7010,     478.78,         ,             ,          ,           ,      48.68 per execution
+     59, CAPSTONE  , STAT, table scans (short tables)                                ,             9,        .61,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, table scans (long tables)                                 ,             1,        .07,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, table scans (direct read)                                 ,             1,        .07,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, table scan rows gotten                                    ,      10015612,    684.06k,         ,             ,          ,           ,     69.55k per execution
+     59, CAPSTONE  , STAT, table scan disk non-IMC rows gotten                       ,      10015612,    684.06k,         ,             ,          ,           ,     69.55k per execution
+     59, CAPSTONE  , STAT, table scan blocks gotten                                  ,          6819,     465.73,         ,             ,          ,           ,      47.35 per execution
+     59, CAPSTONE  , STAT, table fetch by rowid                                      ,            66,       4.51,         ,             ,          ,           ,        .46 per execution
+     59, CAPSTONE  , STAT, cluster key scans                                         ,            60,        4.1,         ,             ,          ,           ,        .42 per execution
+     59, CAPSTONE  , STAT, cluster key scan block gets                               ,            65,       4.44,         ,             ,          ,           ,        .45 per execution
+     59, CAPSTONE  , STAT, rows fetched via callback                                 ,             8,        .55,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, index fetch by key                                        ,            77,       5.26,         ,             ,          ,           ,        .53 per execution
+     59, CAPSTONE  , STAT, index scans kdiixs1                                       ,            66,       4.51,         ,             ,          ,           ,        .46 per execution
+     59, CAPSTONE  , STAT, CCursor + sql area evicted                                ,            10,        .68,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, session cursor cache hits                                 ,           141,       9.63,         ,             ,          ,           ,        137 softparses avoided thanks to cursor cache
+     59, CAPSTONE  , STAT, session cursor cache count                                ,            -1,       -.07,         ,             ,          ,           ,       -.01 per execution
+     59, CAPSTONE  , STAT, cursor authentications                                    ,             1,        .07,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, buffer is pinned count                                    ,             8,        .55,         ,             ,          ,           ,        .11 % buffer gets avoided thanks to buffer pin caching
+     59, CAPSTONE  , STAT, buffer is not pinned count                                ,           366,         25,         ,             ,          ,           ,       2.54 per execution
+     59, CAPSTONE  , STAT, workarea executions - optimal                             ,            20,       1.37,         ,             ,          ,           ,        .14 per execution
+     59, CAPSTONE  , STAT, parse time cpu                                            ,             3,         .2,         ,             ,          ,           ,       30ms total parse time CPU
+     59, CAPSTONE  , STAT, parse time elapsed                                        ,             3,         .2,         ,             ,          ,           ,       30ms total parse time elapsed
+     59, CAPSTONE  , STAT, parse count (total)                                       ,             4,        .27,         ,             ,          ,           ,        .33 softparses per hardparse
+     59, CAPSTONE  , STAT, parse count (hard)                                        ,            12,        .82,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, execute count                                             ,           144,       9.84,         ,             ,          ,           ,         36 executions per parse
+     59, CAPSTONE  , STAT, bytes sent via SQL*Net to client                          ,          4504,     307.62,         ,             ,          ,           ,      900.8 bytes per roundtrip
+     59, CAPSTONE  , STAT, bytes received via SQL*Net from client                    ,           396,      27.05,         ,             ,          ,           ,       79.2 bytes per roundtrip
+     59, CAPSTONE  , STAT, SQL*Net roundtrips to/from client                         ,             5,        .34,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, sorts (memory)                                            ,            49,       3.35,         ,             ,          ,           ,        .34 per execution
+     59, CAPSTONE  , STAT, sorts (rows)                                              ,           500,      34.15,         ,             ,          ,           ,       3.47 per execution
+     59, CAPSTONE  , TIME, hard parse elapsed time                                   ,         24752,     1.69ms,      .2%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, repeated bind elapsed time                                ,           491,    33.54us,      .0%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, parse time elapsed                                        ,         25428,     1.74ms,      .2%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, DB CPU                                                    ,       2052454,   140.18ms,    14.0%, [@@        ],          ,           , 
+     59, CAPSTONE  , TIME, sql execute elapsed time                                  ,       4166778,   284.59ms,    28.5%, [###       ],          ,           , 
+     59, CAPSTONE  , TIME, DB time                                                   ,       4171782,   284.93ms,    28.5%, [###       ],          ,           ,       3.74 % unaccounted time
+     59, CAPSTONE  , WAIT, db file sequential read                                   ,         84701,     5.79ms,      .6%, [W         ],        60,        4.1,     1.41ms average wait
+     59, CAPSTONE  , WAIT, db file scattered read                                    ,         21356,     1.46ms,      .1%, [          ],         4,        .27,     5.34ms average wait
+     59, CAPSTONE  , WAIT, direct path read                                          ,       2017258,   137.78ms,    13.8%, [WW        ],        91,       6.22,    22.17ms average wait
+     59, CAPSTONE  , WAIT, SQL*Net message to client                                 ,             6,      .41us,      .0%, [          ],         5,        .34,      1.2us average wait
+     59, CAPSTONE  , WAIT, SQL*Net message from client                               ,       9922274,   677.69ms,    67.8%, [WWWWWWW   ],         5,        .34,      1.98s average wait
+     59, CAPSTONE  , WAIT, events in waitclass Other                                 ,           756,    51.63us,      .0%, [          ],        29,       1.98,    26.07us average wait
+ 
+	PC_8K_800X_SORT_LARGE
+    SID, USERNAME  , TYPE, STATISTIC                                                 ,         DELTA, HDELTA/SEC,    %TIME, GRAPH       , NUM_WAITS,  WAITS/SEC,   AVERAGES                                    
+     59, CAPSTONE  , STAT, Requests to/from client                                   ,             5,        .34,         ,             ,          ,           ,        .17 per execution
+     59, CAPSTONE  , STAT, opened cursors cumulative                                 ,            30,       2.07,         ,             ,          ,           ,          1 per execution
+     59, CAPSTONE  , STAT, user calls                                                ,             7,        .48,         ,             ,          ,           ,        .23 per execution
+     59, CAPSTONE  , STAT, recursive calls                                           ,            41,       2.82,         ,             ,          ,           ,    243.9us recursive CPU per recursive call
+     59, CAPSTONE  , STAT, recursive cpu usage                                       ,             1,        .07,         ,             ,          ,           ,       10ms total recursive CPU usage
+     59, CAPSTONE  , STAT, session logical reads                                     ,         29075,         2k,         ,             ,          ,           ,     29.08k total buffer visits
+     59, CAPSTONE  , STAT, CPU used when call started                                ,           167,       11.5,         ,             ,          ,           ,      1.67s total CPU used when call started
+     59, CAPSTONE  , STAT, CPU used by this session                                  ,           167,       11.5,         ,             ,          ,           ,      1.67s total CPU used by this session
+     59, CAPSTONE  , STAT, DB time                                                   ,           403,      27.75,         ,             ,          ,           ,      13.43 per execution
+     59, CAPSTONE  , STAT, user I/O wait time                                        ,           233,      16.04,         ,             ,          ,           ,       7.77 per execution
+     59, CAPSTONE  , STAT, non-idle wait time                                        ,           233,      16.04,         ,             ,          ,           ,       7.77 per execution
+     59, CAPSTONE  , STAT, non-idle wait count                                       ,           264,      18.18,         ,             ,          ,           ,        8.8 per execution
+     59, CAPSTONE  , STAT, process last non-idle time                                ,            43,       2.96,         ,             ,          ,           ,       1.43 per execution
+     59, CAPSTONE  , STAT, enqueue requests                                          ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, enqueue releases                                          ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, physical read total IO requests                           ,           249,      17.15,         ,             ,          ,           ,    952.97k bytes per request
+     59, CAPSTONE  , STAT, physical read total multi block requests                  ,           227,      15.63,         ,             ,          ,           ,         22 total single block read requests
+     59, CAPSTONE  , STAT, physical read total bytes                                 ,     237289472,     16.34M,         ,             ,          ,           ,      7.91M per execution
+     59, CAPSTONE  , STAT, cell physical IO interconnect bytes                       ,     237289472,     16.34M,         ,             ,          ,           ,      7.91M per execution
+     59, CAPSTONE  , STAT, db block gets                                             ,             4,        .28,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, db block gets from cache                                  ,             4,        .28,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, db block gets from cache (fastpath)                       ,             4,        .28,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, consistent gets                                           ,         29071,         2k,         ,             ,          ,           ,     969.03 per execution
+     59, CAPSTONE  , STAT, consistent gets from cache                                ,           118,       8.13,         ,             ,          ,           ,       3.93 per execution
+     59, CAPSTONE  , STAT, consistent gets pin                                       ,            70,       4.82,         ,             ,          ,           ,       2.33 per execution
+     59, CAPSTONE  , STAT, consistent gets pin (fastpath)                            ,            62,       4.27,         ,             ,          ,           ,       2.07 per execution
+     59, CAPSTONE  , STAT, consistent gets examination                               ,            48,       3.31,         ,             ,          ,           ,        1.6 per execution
+     59, CAPSTONE  , STAT, consistent gets examination (fastpath)                    ,            43,       2.96,         ,             ,          ,           ,       1.43 per execution
+     59, CAPSTONE  , STAT, consistent gets direct                                    ,         28953,      1.99k,         ,             ,          ,           ,      965.1 per execution
+     59, CAPSTONE  , STAT, logical read bytes from cache                             ,        999424,     68.82k,         ,             ,          ,           ,     33.31k per execution
+     59, CAPSTONE  , STAT, physical reads                                            ,         28966,      1.99k,         ,             ,          ,           ,     965.53 per execution
+     59, CAPSTONE  , STAT, physical reads cache                                      ,            13,         .9,         ,             ,          ,           ,        .43 per execution
+     59, CAPSTONE  , STAT, physical reads direct                                     ,         28953,      1.99k,         ,             ,          ,           ,      965.1 per execution
+     59, CAPSTONE  , STAT, physical read IO requests                                 ,           249,      17.15,         ,             ,          ,           ,    952.97k bytes per request
+     59, CAPSTONE  , STAT, physical read bytes                                       ,     237289472,     16.34M,         ,             ,          ,           ,      7.91M per execution
+     59, CAPSTONE  , STAT, free buffer requested                                     ,            13,         .9,         ,             ,          ,           ,        .43 per execution
+     59, CAPSTONE  , STAT, shared hash latch upgrades - no wait                      ,             4,        .28,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, calls to kcmgcs                                           ,            13,         .9,         ,             ,          ,           ,        .43 per execution
+     59, CAPSTONE  , STAT, calls to get snapshot scn: kcmgss                         ,            34,       2.34,         ,             ,          ,           ,       1.13 per execution
+     59, CAPSTONE  , STAT, file io service time                                      ,           965,      66.45,         ,             ,          ,           ,     3.88us bad guess of IO service time per IO request
+     59, CAPSTONE  , STAT, file io wait time                                         ,       2326170,    160.17k,         ,             ,          ,           ,     9.34ms bad guess of IO wait time per IO request
+     59, CAPSTONE  , STAT, Number of read IOs issued                                 ,           236,      16.25,         ,             ,          ,           ,       7.87 per execution
+     59, CAPSTONE  , STAT, no work - consistent read gets                            ,         29007,         2k,         ,             ,          ,           ,      966.9 per execution
+     59, CAPSTONE  , STAT, table scans (short tables)                                ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, table scans (long tables)                                 ,             1,        .07,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, table scans (direct read)                                 ,             1,        .07,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, table scan rows gotten                                    ,      10000778,    688.62k,         ,             ,          ,           ,    333.36k per execution
+     59, CAPSTONE  , STAT, table scan disk non-IMC rows gotten                       ,      10000778,    688.62k,         ,             ,          ,           ,    333.36k per execution
+     59, CAPSTONE  , STAT, table scan blocks gotten                                  ,         28967,      1.99k,         ,             ,          ,           ,     965.57 per execution
+     59, CAPSTONE  , STAT, table fetch by rowid                                      ,            18,       1.24,         ,             ,          ,           ,         .6 per execution
+     59, CAPSTONE  , STAT, cluster key scans                                         ,             9,        .62,         ,             ,          ,           ,         .3 per execution
+     59, CAPSTONE  , STAT, cluster key scan block gets                               ,             9,        .62,         ,             ,          ,           ,         .3 per execution
+     59, CAPSTONE  , STAT, rows fetched via callback                                 ,             3,        .21,         ,             ,          ,           ,         .1 per execution
+     59, CAPSTONE  , STAT, index fetch by key                                        ,            15,       1.03,         ,             ,          ,           ,         .5 per execution
+     59, CAPSTONE  , STAT, index scans kdiixs1                                       ,            15,       1.03,         ,             ,          ,           ,         .5 per execution
+     59, CAPSTONE  , STAT, CCursor + sql area evicted                                ,             1,        .07,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, session cursor cache hits                                 ,            29,          2,         ,             ,          ,           ,         28 softparses avoided thanks to cursor cache
+     59, CAPSTONE  , STAT, session cursor cache count                                ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, buffer is pinned count                                    ,             4,        .28,         ,             ,          ,           ,        .01 % buffer gets avoided thanks to buffer pin caching
+     59, CAPSTONE  , STAT, buffer is not pinned count                                ,            82,       5.65,         ,             ,          ,           ,       2.73 per execution
+     59, CAPSTONE  , STAT, workarea executions - optimal                             ,             7,        .48,         ,             ,          ,           ,        .23 per execution
+     59, CAPSTONE  , STAT, parse time cpu                                            ,             1,        .07,         ,             ,          ,           ,       10ms total parse time CPU
+     59, CAPSTONE  , STAT, parse time elapsed                                        ,            13,         .9,         ,             ,          ,           ,      130ms total parse time elapsed
+     59, CAPSTONE  , STAT, parse count (total)                                       ,             1,        .07,         ,             ,          ,           ,         .5 softparses per hardparse
+     59, CAPSTONE  , STAT, parse count (hard)                                        ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, execute count                                             ,            30,       2.07,         ,             ,          ,           ,         30 executions per parse
+     59, CAPSTONE  , STAT, bytes sent via SQL*Net to client                          ,          4504,     310.13,         ,             ,          ,           ,      900.8 bytes per roundtrip
+     59, CAPSTONE  , STAT, bytes received via SQL*Net from client                    ,           297,      20.45,         ,             ,          ,           ,       59.4 bytes per roundtrip
+     59, CAPSTONE  , STAT, SQL*Net roundtrips to/from client                         ,             5,        .34,         ,             ,          ,           ,        .17 per execution
+     59, CAPSTONE  , STAT, sorts (memory)                                            ,             6,        .41,         ,             ,          ,           ,         .2 per execution
+     59, CAPSTONE  , STAT, sorts (rows)                                              ,            29,          2,         ,             ,          ,           ,        .97 per execution
+     59, CAPSTONE  , TIME, hard parse elapsed time                                   ,        129271,      8.9ms,      .9%, [#         ],          ,           , 
+     59, CAPSTONE  , TIME, repeated bind elapsed time                                ,            58,     3.99us,      .0%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, parse time elapsed                                        ,        129672,     8.93ms,      .9%, [#         ],          ,           , 
+     59, CAPSTONE  , TIME, DB CPU                                                    ,       1676582,   115.44ms,    11.5%, [@@        ],          ,           , 
+     59, CAPSTONE  , TIME, sql execute elapsed time                                  ,       4027954,   277.35ms,    27.7%, [###       ],          ,           , 
+     59, CAPSTONE  , TIME, DB time                                                   ,       4030813,   277.55ms,    27.8%, [###       ],          ,           ,      -1.45 % unaccounted time
+     59, CAPSTONE  , WAIT, db file sequential read                                   ,        124059,     8.54ms,      .9%, [W         ],        13,         .9,     9.54ms average wait
+     59, CAPSTONE  , WAIT, direct path read                                          ,       2205459,   151.86ms,    15.2%, [WW        ],       236,      16.25,     9.35ms average wait
+     59, CAPSTONE  , WAIT, SQL*Net message to client                                 ,             8,      .55us,      .0%, [          ],         5,        .34,      1.6us average wait
+     59, CAPSTONE  , WAIT, SQL*Net message from client                               ,      10703139,   736.98ms,    73.7%, [WWWWWWWW  ],         5,        .34,      2.14s average wait
+     59, CAPSTONE  , WAIT, events in waitclass Other                                 ,           168,    11.57us,      .0%, [          ],        10,        .69,     16.8us average wait
+ 
+	PC_8K_800X_SORT_NORM_LARGE
+    SID, USERNAME  , TYPE, STATISTIC                                                 ,         DELTA, HDELTA/SEC,    %TIME, GRAPH       , NUM_WAITS,  WAITS/SEC,   AVERAGES                                    
+     59, CAPSTONE  , STAT, Requests to/from client                                   ,             5,        .32,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, opened cursors cumulative                                 ,           180,      11.67,         ,             ,          ,           ,          1 per execution
+     59, CAPSTONE  , STAT, opened cursors current                                    ,            -1,       -.06,         ,             ,          ,           ,         -1 actual value in end of snapshot
+     59, CAPSTONE  , STAT, user calls                                                ,             7,        .45,         ,             ,          ,           ,        .04 per execution
+     59, CAPSTONE  , STAT, recursive calls                                           ,           319,      20.69,         ,             ,          ,           ,    94.04us recursive CPU per recursive call
+     59, CAPSTONE  , STAT, recursive cpu usage                                       ,             3,        .19,         ,             ,          ,           ,       30ms total recursive CPU usage
+     59, CAPSTONE  , STAT, session logical reads                                     ,         29417,      1.91k,         ,             ,          ,           ,     29.42k total buffer visits
+     59, CAPSTONE  , STAT, CPU used by this session                                  ,           153,       9.92,         ,             ,          ,           ,      1.53s total CPU used by this session
+     59, CAPSTONE  , STAT, DB time                                                   ,           413,      26.78,         ,             ,          ,           ,       2.29 per execution
+     59, CAPSTONE  , STAT, user I/O wait time                                        ,           262,      16.99,         ,             ,          ,           ,       1.46 per execution
+     59, CAPSTONE  , STAT, non-idle wait time                                        ,           263,      17.05,         ,             ,          ,           ,       1.46 per execution
+     59, CAPSTONE  , STAT, non-idle wait count                                       ,           333,      21.59,         ,             ,          ,           ,       1.85 per execution
+     59, CAPSTONE  , STAT, process last non-idle time                                ,            59,       3.83,         ,             ,          ,           ,        .33 per execution
+     59, CAPSTONE  , STAT, session pga memory                                        ,       -196608,    -12.75k,         ,             ,          ,           ,   -196.61k actual value in end of snapshot
+     59, CAPSTONE  , STAT, enqueue requests                                          ,            14,        .91,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, enqueue releases                                          ,            14,        .91,         ,             ,          ,           ,        .08 per execution
+     59, CAPSTONE  , STAT, physical read total IO requests                           ,           298,      19.32,         ,             ,          ,           ,    792.53k bytes per request
+     59, CAPSTONE  , STAT, physical read total multi block requests                  ,           226,      14.66,         ,             ,          ,           ,         72 total single block read requests
+     59, CAPSTONE  , STAT, physical read total bytes                                 ,     236175360,     15.32M,         ,             ,          ,           ,      1.31M per execution
+     59, CAPSTONE  , STAT, cell physical IO interconnect bytes                       ,     236175360,     15.32M,         ,             ,          ,           ,      1.31M per execution
+     59, CAPSTONE  , STAT, db block gets                                             ,             4,        .26,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, db block gets from cache                                  ,             4,        .26,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, db block gets from cache (fastpath)                       ,             4,        .26,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, consistent gets                                           ,         29413,      1.91k,         ,             ,          ,           ,     163.41 per execution
+     59, CAPSTONE  , STAT, consistent gets from cache                                ,           654,      42.41,         ,             ,          ,           ,       3.63 per execution
+     59, CAPSTONE  , STAT, consistent gets pin                                       ,           370,      23.99,         ,             ,          ,           ,       2.06 per execution
+     59, CAPSTONE  , STAT, consistent gets pin (fastpath)                            ,           321,      20.82,         ,             ,          ,           ,       1.78 per execution
+     59, CAPSTONE  , STAT, consistent gets examination                               ,           284,      18.42,         ,             ,          ,           ,       1.58 per execution
+     59, CAPSTONE  , STAT, consistent gets examination (fastpath)                    ,           270,      17.51,         ,             ,          ,           ,        1.5 per execution
+     59, CAPSTONE  , STAT, consistent gets direct                                    ,         28759,      1.86k,         ,             ,          ,           ,     159.77 per execution
+     59, CAPSTONE  , STAT, logical read bytes from cache                             ,       5390336,    349.54k,         ,             ,          ,           ,     29.95k per execution
+     59, CAPSTONE  , STAT, physical reads                                            ,         28830,      1.87k,         ,             ,          ,           ,     160.17 per execution
+     59, CAPSTONE  , STAT, physical reads cache                                      ,            71,        4.6,         ,             ,          ,           ,        .39 per execution
+     59, CAPSTONE  , STAT, physical reads direct                                     ,         28759,      1.86k,         ,             ,          ,           ,     159.77 per execution
+     59, CAPSTONE  , STAT, physical read IO requests                                 ,           298,      19.32,         ,             ,          ,           ,    792.53k bytes per request
+     59, CAPSTONE  , STAT, physical read bytes                                       ,     236175360,     15.32M,         ,             ,          ,           ,      1.31M per execution
+     59, CAPSTONE  , STAT, free buffer requested                                     ,            71,        4.6,         ,             ,          ,           ,        .39 per execution
+     59, CAPSTONE  , STAT, physical reads cache prefetch                             ,             8,        .52,         ,             ,          ,           ,        .04 per execution
+     59, CAPSTONE  , STAT, shared hash latch upgrades - no wait                      ,            31,       2.01,         ,             ,          ,           ,        .17 per execution
+     59, CAPSTONE  , STAT, calls to kcmgcs                                           ,            31,       2.01,         ,             ,          ,           ,        .17 per execution
+     59, CAPSTONE  , STAT, calls to get snapshot scn: kcmgss                         ,           204,      13.23,         ,             ,          ,           ,       1.13 per execution
+     59, CAPSTONE  , STAT, file io service time                                      ,          1028,      66.66,         ,             ,          ,           ,     3.45us bad guess of IO service time per IO request
+     59, CAPSTONE  , STAT, file io wait time                                         ,       2620526,    169.93k,         ,             ,          ,           ,     8.79ms bad guess of IO wait time per IO request
+     59, CAPSTONE  , STAT, Number of read IOs issued                                 ,           235,      15.24,         ,             ,          ,           ,       1.31 per execution
+     59, CAPSTONE  , STAT, no work - consistent read gets                            ,         29092,      1.89k,         ,             ,          ,           ,     161.62 per execution
+     59, CAPSTONE  , STAT, table scans (short tables)                                ,            11,        .71,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, table scans (long tables)                                 ,             1,        .06,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, table scans (direct read)                                 ,             1,        .06,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, table scan rows gotten                                    ,      10003521,    648.69k,         ,             ,          ,           ,     55.58k per execution
+     59, CAPSTONE  , STAT, table scan disk non-IMC rows gotten                       ,      10003521,    648.69k,         ,             ,          ,           ,     55.58k per execution
+     59, CAPSTONE  , STAT, table scan blocks gotten                                  ,         28832,      1.87k,         ,             ,          ,           ,     160.18 per execution
+     59, CAPSTONE  , STAT, table fetch by rowid                                      ,            87,       5.64,         ,             ,          ,           ,        .48 per execution
+     59, CAPSTONE  , STAT, cluster key scans                                         ,            71,        4.6,         ,             ,          ,           ,        .39 per execution
+     59, CAPSTONE  , STAT, cluster key scan block gets                               ,            84,       5.45,         ,             ,          ,           ,        .47 per execution
+     59, CAPSTONE  , STAT, rows fetched via callback                                 ,            10,        .65,         ,             ,          ,           ,        .06 per execution
+     59, CAPSTONE  , STAT, index fetch by key                                        ,            94,        6.1,         ,             ,          ,           ,        .52 per execution
+     59, CAPSTONE  , STAT, index scans kdiixs1                                       ,            88,       5.71,         ,             ,          ,           ,        .49 per execution
+     59, CAPSTONE  , STAT, CCursor + sql area evicted                                ,             9,        .58,         ,             ,          ,           ,        .05 per execution
+     59, CAPSTONE  , STAT, session cursor cache hits                                 ,           177,      11.48,         ,             ,          ,           ,        173 softparses avoided thanks to cursor cache
+     59, CAPSTONE  , STAT, cursor authentications                                    ,             1,        .06,         ,             ,          ,           ,        .01 per execution
+     59, CAPSTONE  , STAT, buffer is pinned count                                    ,             4,        .26,         ,             ,          ,           ,        .01 % buffer gets avoided thanks to buffer pin caching
+     59, CAPSTONE  , STAT, buffer is not pinned count                                ,           482,      31.26,         ,             ,          ,           ,       2.68 per execution
+     59, CAPSTONE  , STAT, workarea executions - optimal                             ,            33,       2.14,         ,             ,          ,           ,        .18 per execution
+     59, CAPSTONE  , STAT, parse time cpu                                            ,             3,        .19,         ,             ,          ,           ,       30ms total parse time CPU
+     59, CAPSTONE  , STAT, parse time elapsed                                        ,            12,        .78,         ,             ,          ,           ,      120ms total parse time elapsed
+     59, CAPSTONE  , STAT, parse count (total)                                       ,             4,        .26,         ,             ,          ,           ,        .33 softparses per hardparse
+     59, CAPSTONE  , STAT, parse count (hard)                                        ,            12,        .78,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, execute count                                             ,           180,      11.67,         ,             ,          ,           ,         45 executions per parse
+     59, CAPSTONE  , STAT, bytes sent via SQL*Net to client                          ,          4522,     293.23,         ,             ,          ,           ,      904.4 bytes per roundtrip
+     59, CAPSTONE  , STAT, bytes received via SQL*Net from client                    ,           506,      32.81,         ,             ,          ,           ,      101.2 bytes per roundtrip
+     59, CAPSTONE  , STAT, SQL*Net roundtrips to/from client                         ,             5,        .32,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, sorts (memory)                                            ,            58,       3.76,         ,             ,          ,           ,        .32 per execution
+     59, CAPSTONE  , STAT, sorts (rows)                                              ,           526,      34.11,         ,             ,          ,           ,       2.92 per execution
+     59, CAPSTONE  , TIME, hard parse elapsed time                                   ,        122542,     7.95ms,      .8%, [#         ],          ,           , 
+     59, CAPSTONE  , TIME, repeated bind elapsed time                                ,           174,    11.28us,      .0%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, parse time elapsed                                        ,        123479,     8.01ms,      .8%, [#         ],          ,           , 
+     59, CAPSTONE  , TIME, DB CPU                                                    ,       1523155,    98.77ms,     9.9%, [@         ],          ,           , 
+     59, CAPSTONE  , TIME, sql execute elapsed time                                  ,       4128444,   267.71ms,    26.8%, [###       ],          ,           , 
+     59, CAPSTONE  , TIME, DB time                                                   ,       4136919,   268.26ms,    26.8%, [###       ],          ,           ,      -3.14 % unaccounted time
+     59, CAPSTONE  , WAIT, Disk file operations I/O                                  ,            21,     1.36us,      .0%, [          ],         1,        .06,       21us average wait
+     59, CAPSTONE  , WAIT, db file sequential read                                   ,        121174,     7.86ms,      .8%, [W         ],        61,       3.96,     1.99ms average wait
+     59, CAPSTONE  , WAIT, db file scattered read                                    ,          3582,   232.28us,      .0%, [          ],         2,        .13,     1.79ms average wait
+     59, CAPSTONE  , WAIT, direct path read                                          ,       2499269,   162.07ms,    16.2%, [WW        ],       235,      15.24,    10.64ms average wait
+     59, CAPSTONE  , WAIT, SQL*Net message to client                                 ,             6,      .39us,      .0%, [          ],         5,        .32,      1.2us average wait
+     59, CAPSTONE  , WAIT, SQL*Net message from client                               ,      11768918,   763.17ms,    76.3%, [WWWWWWWW  ],         5,        .32,      2.35s average wait
+     59, CAPSTONE  , WAIT, events in waitclass Other                                 ,           355,    23.02us,      .0%, [          ],        29,       1.88,    12.24us average wait
+ 
+	PC_32K_800X_SORT_LARGE
+    SID, USERNAME  , TYPE, STATISTIC                                                 ,         DELTA, HDELTA/SEC,    %TIME, GRAPH       , NUM_WAITS,  WAITS/SEC,   AVERAGES                                    
+     59, CAPSTONE  , STAT, Requests to/from client                                   ,             5,        .34,         ,             ,          ,           ,        .17 per execution
+     59, CAPSTONE  , STAT, opened cursors cumulative                                 ,            30,       2.07,         ,             ,          ,           ,          1 per execution
+     59, CAPSTONE  , STAT, user calls                                                ,             8,        .55,         ,             ,          ,           ,        .27 per execution
+     59, CAPSTONE  , STAT, recursive calls                                           ,            41,       2.83,         ,             ,          ,           ,    243.9us recursive CPU per recursive call
+     59, CAPSTONE  , STAT, recursive cpu usage                                       ,             1,        .07,         ,             ,          ,           ,       10ms total recursive CPU usage
+     59, CAPSTONE  , STAT, session logical reads                                     ,          7197,     496.03,         ,             ,          ,           ,       7.2k total buffer visits
+     59, CAPSTONE  , STAT, CPU used when call started                                ,           185,      12.75,         ,             ,          ,           ,      1.85s total CPU used when call started
+     59, CAPSTONE  , STAT, CPU used by this session                                  ,           165,      11.37,         ,             ,          ,           ,      1.65s total CPU used by this session
+     59, CAPSTONE  , STAT, DB time                                                   ,           391,      26.95,         ,             ,          ,           ,      13.03 per execution
+     59, CAPSTONE  , STAT, user I/O wait time                                        ,           228,      15.71,         ,             ,          ,           ,        7.6 per execution
+     59, CAPSTONE  , STAT, non-idle wait time                                        ,           229,      15.78,         ,             ,          ,           ,       7.63 per execution
+     59, CAPSTONE  , STAT, non-idle wait count                                       ,           124,       8.55,         ,             ,          ,           ,       4.13 per execution
+     59, CAPSTONE  , STAT, process last non-idle time                                ,            46,       3.17,         ,             ,          ,           ,       1.53 per execution
+     59, CAPSTONE  , STAT, enqueue requests                                          ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, enqueue releases                                          ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, physical read total IO requests                           ,           109,       7.51,         ,             ,          ,           ,      2.13M bytes per request
+     59, CAPSTONE  , STAT, physical read total multi block requests                  ,            96,       6.62,         ,             ,          ,           ,         13 total single block read requests
+     59, CAPSTONE  , STAT, physical read total bytes                                 ,     231964672,     15.99M,         ,             ,          ,           ,      7.73M per execution
+     59, CAPSTONE  , STAT, cell physical IO interconnect bytes                       ,     231964672,     15.99M,         ,             ,          ,           ,      7.73M per execution
+     59, CAPSTONE  , STAT, db block gets                                             ,             4,        .28,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, db block gets from cache                                  ,             4,        .28,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, db block gets from cache (fastpath)                       ,             4,        .28,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, consistent gets                                           ,          7193,     495.76,         ,             ,          ,           ,     239.77 per execution
+     59, CAPSTONE  , STAT, consistent gets from cache                                ,           118,       8.13,         ,             ,          ,           ,       3.93 per execution
+     59, CAPSTONE  , STAT, consistent gets pin                                       ,            70,       4.82,         ,             ,          ,           ,       2.33 per execution
+     59, CAPSTONE  , STAT, consistent gets pin (fastpath)                            ,            62,       4.27,         ,             ,          ,           ,       2.07 per execution
+     59, CAPSTONE  , STAT, consistent gets examination                               ,            48,       3.31,         ,             ,          ,           ,        1.6 per execution
+     59, CAPSTONE  , STAT, consistent gets examination (fastpath)                    ,            43,       2.96,         ,             ,          ,           ,       1.43 per execution
+     59, CAPSTONE  , STAT, consistent gets direct                                    ,          7075,     487.63,         ,             ,          ,           ,     235.83 per execution
+     59, CAPSTONE  , STAT, logical read bytes from cache                             ,       1294336,     89.21k,         ,             ,          ,           ,     43.14k per execution
+     59, CAPSTONE  , STAT, physical reads                                            ,          7088,     488.52,         ,             ,          ,           ,     236.27 per execution
+     59, CAPSTONE  , STAT, physical reads cache                                      ,            13,         .9,         ,             ,          ,           ,        .43 per execution
+     59, CAPSTONE  , STAT, physical reads direct                                     ,          7075,     487.63,         ,             ,          ,           ,     235.83 per execution
+     59, CAPSTONE  , STAT, physical read IO requests                                 ,           109,       7.51,         ,             ,          ,           ,      2.13M bytes per request
+     59, CAPSTONE  , STAT, physical read bytes                                       ,     231964672,     15.99M,         ,             ,          ,           ,      7.73M per execution
+     59, CAPSTONE  , STAT, free buffer requested                                     ,            13,         .9,         ,             ,          ,           ,        .43 per execution
+     59, CAPSTONE  , STAT, shared hash latch upgrades - no wait                      ,             4,        .28,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, calls to kcmgcs                                           ,            13,         .9,         ,             ,          ,           ,        .43 per execution
+     59, CAPSTONE  , STAT, calls to get snapshot scn: kcmgss                         ,            34,       2.34,         ,             ,          ,           ,       1.13 per execution
+     59, CAPSTONE  , STAT, file io service time                                      ,           696,      47.97,         ,             ,          ,           ,     6.39us bad guess of IO service time per IO request
+     59, CAPSTONE  , STAT, file io wait time                                         ,       2286748,    157.61k,         ,             ,          ,           ,    20.98ms bad guess of IO wait time per IO request
+     59, CAPSTONE  , STAT, Number of read IOs issued                                 ,            96,       6.62,         ,             ,          ,           ,        3.2 per execution
+     59, CAPSTONE  , STAT, no work - consistent read gets                            ,          7129,     491.35,         ,             ,          ,           ,     237.63 per execution
+     59, CAPSTONE  , STAT, table scans (short tables)                                ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, table scans (long tables)                                 ,             1,        .07,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, table scans (direct read)                                 ,             1,        .07,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, table scan rows gotten                                    ,      10000778,    689.28k,         ,             ,          ,           ,    333.36k per execution
+     59, CAPSTONE  , STAT, table scan disk non-IMC rows gotten                       ,      10000778,    689.28k,         ,             ,          ,           ,    333.36k per execution
+     59, CAPSTONE  , STAT, table scan blocks gotten                                  ,          7089,     488.59,         ,             ,          ,           ,      236.3 per execution
+     59, CAPSTONE  , STAT, table fetch by rowid                                      ,            18,       1.24,         ,             ,          ,           ,         .6 per execution
+     59, CAPSTONE  , STAT, cluster key scans                                         ,             9,        .62,         ,             ,          ,           ,         .3 per execution
+     59, CAPSTONE  , STAT, cluster key scan block gets                               ,             9,        .62,         ,             ,          ,           ,         .3 per execution
+     59, CAPSTONE  , STAT, rows fetched via callback                                 ,             3,        .21,         ,             ,          ,           ,         .1 per execution
+     59, CAPSTONE  , STAT, index fetch by key                                        ,            15,       1.03,         ,             ,          ,           ,         .5 per execution
+     59, CAPSTONE  , STAT, index scans kdiixs1                                       ,            15,       1.03,         ,             ,          ,           ,         .5 per execution
+     59, CAPSTONE  , STAT, CCursor + sql area evicted                                ,             1,        .07,         ,             ,          ,           ,        .03 per execution
+     59, CAPSTONE  , STAT, session cursor cache hits                                 ,            29,          2,         ,             ,          ,           ,         28 softparses avoided thanks to cursor cache
+     59, CAPSTONE  , STAT, buffer is pinned count                                    ,             4,        .28,         ,             ,          ,           ,        .06 % buffer gets avoided thanks to buffer pin caching
+     59, CAPSTONE  , STAT, buffer is not pinned count                                ,            82,       5.65,         ,             ,          ,           ,       2.73 per execution
+     59, CAPSTONE  , STAT, workarea executions - optimal                             ,             7,        .48,         ,             ,          ,           ,        .23 per execution
+     59, CAPSTONE  , STAT, parse time cpu                                            ,             1,        .07,         ,             ,          ,           ,       10ms total parse time CPU
+     59, CAPSTONE  , STAT, parse time elapsed                                        ,             5,        .34,         ,             ,          ,           ,       50ms total parse time elapsed
+     59, CAPSTONE  , STAT, parse count (total)                                       ,             1,        .07,         ,             ,          ,           ,         .5 softparses per hardparse
+     59, CAPSTONE  , STAT, parse count (hard)                                        ,             2,        .14,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, execute count                                             ,            30,       2.07,         ,             ,          ,           ,         30 executions per parse
+     59, CAPSTONE  , STAT, bytes sent via SQL*Net to client                          ,          4504,     310.43,         ,             ,          ,           ,      900.8 bytes per roundtrip
+     59, CAPSTONE  , STAT, bytes received via SQL*Net from client                    ,           306,      21.09,         ,             ,          ,           ,       61.2 bytes per roundtrip
+     59, CAPSTONE  , STAT, SQL*Net roundtrips to/from client                         ,             5,        .34,         ,             ,          ,           ,        .17 per execution
+     59, CAPSTONE  , STAT, sorts (memory)                                            ,             6,        .41,         ,             ,          ,           ,         .2 per execution
+     59, CAPSTONE  , STAT, sorts (rows)                                              ,            29,          2,         ,             ,          ,           ,        .97 per execution
+     59, CAPSTONE  , TIME, hard parse elapsed time                                   ,         46570,     3.21ms,      .3%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, repeated bind elapsed time                                ,            10,      .69us,      .0%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, parse time elapsed                                        ,         46862,     3.23ms,      .3%, [          ],          ,           , 
+     59, CAPSTONE  , TIME, DB CPU                                                    ,       1648150,   113.59ms,    11.4%, [@@        ],          ,           , 
+     59, CAPSTONE  , TIME, sql execute elapsed time                                  ,       3902884,      269ms,    26.9%, [###       ],          ,           , 
+     59, CAPSTONE  , TIME, DB time                                                   ,       3906047,   269.21ms,    26.9%, [###       ],          ,           ,        .41 % unaccounted time
+     59, CAPSTONE  , WAIT, db file sequential read                                   ,         41312,     2.85ms,      .3%, [          ],        13,         .9,     3.18ms average wait
+     59, CAPSTONE  , WAIT, direct path read                                          ,       2247032,   154.87ms,    15.5%, [WW        ],        96,       6.62,    23.41ms average wait
+     59, CAPSTONE  , WAIT, SQL*Net message to client                                 ,             6,      .41us,      .0%, [          ],         5,        .34,      1.2us average wait
+     59, CAPSTONE  , WAIT, SQL*Net message from client                               ,      10544215,   726.73ms,    72.7%, [WWWWWWWW  ],         5,        .34,      2.11s average wait
+     59, CAPSTONE  , WAIT, events in waitclass Other                                 ,           669,    46.11us,      .0%, [          ],        10,        .69,     66.9us average wait
+ 
+	PC_32K_800X_SORT_NORM_LARGE
+    SID, USERNAME  , TYPE, STATISTIC                                                 ,         DELTA, HDELTA/SEC,    %TIME, GRAPH       , NUM_WAITS,  WAITS/SEC,   AVERAGES                                    
+     59, CAPSTONE  , STAT, Requests to/from client                                   ,             5,        .34,         ,             ,          ,           ,        .09 per execution
+     59, CAPSTONE  , STAT, opened cursors cumulative                                 ,            55,       3.73,         ,             ,          ,           ,          1 per execution
+     59, CAPSTONE  , STAT, opened cursors current                                    ,            -1,       -.07,         ,             ,          ,           ,         -1 actual value in end of snapshot
+     59, CAPSTONE  , STAT, user calls                                                ,             8,        .54,         ,             ,          ,           ,        .15 per execution
+     59, CAPSTONE  , STAT, recursive calls                                           ,            78,       5.29,         ,             ,          ,           ,   128.21us recursive CPU per recursive call
+     59, CAPSTONE  , STAT, recursive cpu usage                                       ,             1,        .07,         ,             ,          ,           ,       10ms total recursive CPU usage
+     59, CAPSTONE  , STAT, session logical reads                                     ,          7275,     492.95,         ,             ,          ,           ,      7.28k total buffer visits
+     59, CAPSTONE  , STAT, CPU used when call started                                ,            23,       1.56,         ,             ,          ,           ,      230ms total CPU used when call started
+     59, CAPSTONE  , STAT, CPU used by this session                                  ,           149,       10.1,         ,             ,          ,           ,      1.49s total CPU used by this session
+     59, CAPSTONE  , STAT, DB time                                                   ,           353,      23.92,         ,             ,          ,           ,       6.42 per execution
+     59, CAPSTONE  , STAT, user I/O wait time                                        ,           203,      13.76,         ,             ,          ,           ,       3.69 per execution
+     59, CAPSTONE  , STAT, non-idle wait time                                        ,           204,      13.82,         ,             ,          ,           ,       3.71 per execution
+     59, CAPSTONE  , STAT, non-idle wait count                                       ,           153,      10.37,         ,             ,          ,           ,       2.78 per execution
+     59, CAPSTONE  , STAT, process last non-idle time                                ,            46,       3.12,         ,             ,          ,           ,        .84 per execution
+     59, CAPSTONE  , STAT, session uga memory max                                    ,        461568,     31.28k,         ,             ,          ,           ,    461.57k actual value in end of snapshot
+     59, CAPSTONE  , STAT, enqueue requests                                          ,             6,        .41,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, enqueue releases                                          ,             6,        .41,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, physical read total IO requests                           ,           118,          8,         ,             ,          ,           ,      1.96M bytes per request
+     59, CAPSTONE  , STAT, physical read total multi block requests                  ,            96,        6.5,         ,             ,          ,           ,         22 total single block read requests
+     59, CAPSTONE  , STAT, physical read total bytes                                 ,     231677952,      15.7M,         ,             ,          ,           ,      4.21M per execution
+     59, CAPSTONE  , STAT, cell physical IO interconnect bytes                       ,     231677952,      15.7M,         ,             ,          ,           ,      4.21M per execution
+     59, CAPSTONE  , STAT, db block gets                                             ,             4,        .27,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, db block gets from cache                                  ,             4,        .27,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, db block gets from cache (fastpath)                       ,             4,        .27,         ,             ,          ,           ,        .07 per execution
+     59, CAPSTONE  , STAT, consistent gets                                           ,          7271,     492.68,         ,             ,          ,           ,      132.2 per execution
+     59, CAPSTONE  , STAT, consistent gets from cache                                ,           209,      14.16,         ,             ,          ,           ,        3.8 per execution
+     59, CAPSTONE  , STAT, consistent gets pin                                       ,           125,       8.47,         ,             ,          ,           ,       2.27 per execution
+     59, CAPSTONE  , STAT, consistent gets pin (fastpath)                            ,           109,       7.39,         ,             ,          ,           ,       1.98 per execution
+     59, CAPSTONE  , STAT, consistent gets examination                               ,            84,       5.69,         ,             ,          ,           ,       1.53 per execution
+     59, CAPSTONE  , STAT, consistent gets examination (fastpath)                    ,            78,       5.29,         ,             ,          ,           ,       1.42 per execution
+     59, CAPSTONE  , STAT, consistent gets direct                                    ,          7062,     478.52,         ,             ,          ,           ,      128.4 per execution
+     59, CAPSTONE  , STAT, logical read bytes from cache                             ,       2039808,    138.22k,         ,             ,          ,           ,     37.09k per execution
+     59, CAPSTONE  , STAT, physical reads                                            ,          7092,     480.55,         ,             ,          ,           ,     128.95 per execution
+     59, CAPSTONE  , STAT, physical reads cache                                      ,            30,       2.03,         ,             ,          ,           ,        .55 per execution
+     59, CAPSTONE  , STAT, physical reads direct                                     ,          7062,     478.52,         ,             ,          ,           ,      128.4 per execution
+     59, CAPSTONE  , STAT, physical read IO requests                                 ,           118,          8,         ,             ,          ,           ,      1.96M bytes per request
+     59, CAPSTONE  , STAT, physical read bytes                                       ,     231677952,      15.7M,         ,             ,          ,           ,      4.21M per execution
+     59, CAPSTONE  , STAT, free buffer requested                                     ,            30,       2.03,         ,             ,          ,           ,        .55 per execution
+     59, CAPSTONE  , STAT, physical reads cache prefetch                             ,             8,        .54,         ,             ,          ,           ,        .15 per execution
+     59, CAPSTONE  , STAT, shared hash latch upgrades - no wait                      ,             6,        .41,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, calls to kcmgcs                                           ,            21,       1.42,         ,             ,          ,           ,        .38 per execution
+     59, CAPSTONE  , STAT, calls to get snapshot scn: kcmgss                         ,            62,        4.2,         ,             ,          ,           ,       1.13 per execution
+     59, CAPSTONE  , STAT, file io service time                                      ,           721,      48.85,         ,             ,          ,           ,     6.11us bad guess of IO service time per IO request
+     59, CAPSTONE  , STAT, file io wait time                                         ,       2036053,    137.96k,         ,             ,          ,           ,    17.25ms bad guess of IO wait time per IO request
+     59, CAPSTONE  , STAT, Number of read IOs issued                                 ,            96,        6.5,         ,             ,          ,           ,       1.75 per execution
+     59, CAPSTONE  , STAT, no work - consistent read gets                            ,          7163,     485.36,         ,             ,          ,           ,     130.24 per execution
+     59, CAPSTONE  , STAT, table scans (short tables)                                ,             6,        .41,         ,             ,          ,           ,        .11 per execution
+     59, CAPSTONE  , STAT, table scans (long tables)                                 ,             1,        .07,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, table scans (direct read)                                 ,             1,        .07,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, table scan rows gotten                                    ,      10001576,     677.7k,         ,             ,          ,           ,    181.85k per execution
+     59, CAPSTONE  , STAT, table scan disk non-IMC rows gotten                       ,      10001576,     677.7k,         ,             ,          ,           ,    181.85k per execution
+     59, CAPSTONE  , STAT, table scan blocks gotten                                  ,          7100,     481.09,         ,             ,          ,           ,     129.09 per execution
+     59, CAPSTONE  , STAT, table fetch by rowid                                      ,            30,       2.03,         ,             ,          ,           ,        .55 per execution
+     59, CAPSTONE  , STAT, cluster key scans                                         ,            13,        .88,         ,             ,          ,           ,        .24 per execution
+     59, CAPSTONE  , STAT, cluster key scan block gets                               ,            13,        .88,         ,             ,          ,           ,        .24 per execution
+     59, CAPSTONE  , STAT, rows fetched via callback                                 ,             7,        .47,         ,             ,          ,           ,        .13 per execution
+     59, CAPSTONE  , STAT, index fetch by key                                        ,            26,       1.76,         ,             ,          ,           ,        .47 per execution
+     59, CAPSTONE  , STAT, index scans kdiixs1                                       ,            26,       1.76,         ,             ,          ,           ,        .47 per execution
+     59, CAPSTONE  , STAT, CCursor + sql area evicted                                ,             2,        .14,         ,             ,          ,           ,        .04 per execution
+     59, CAPSTONE  , STAT, session cursor cache hits                                 ,            52,       3.52,         ,             ,          ,           ,         48 softparses avoided thanks to cursor cache
+     59, CAPSTONE  , STAT, cursor authentications                                    ,             1,        .07,         ,             ,          ,           ,        .02 per execution
+     59, CAPSTONE  , STAT, buffer is pinned count                                    ,             4,        .27,         ,             ,          ,           ,        .05 % buffer gets avoided thanks to buffer pin caching
+     59, CAPSTONE  , STAT, buffer is not pinned count                                ,           144,       9.76,         ,             ,          ,           ,       2.62 per execution
+     59, CAPSTONE  , STAT, workarea executions - optimal                             ,            11,        .75,         ,             ,          ,           ,         .2 per execution
+     59, CAPSTONE  , STAT, parse time cpu                                            ,             1,        .07,         ,             ,          ,           ,       10ms total parse time CPU
+     59, CAPSTONE  , STAT, parse time elapsed                                        ,            12,        .81,         ,             ,          ,           ,      120ms total parse time elapsed
+     59, CAPSTONE  , STAT, parse count (total)                                       ,             4,        .27,         ,             ,          ,           ,         .8 softparses per hardparse
+     59, CAPSTONE  , STAT, parse count (hard)                                        ,             5,        .34,         ,             ,          ,           ,        .09 per execution
+     59, CAPSTONE  , STAT, execute count                                             ,            55,       3.73,         ,             ,          ,           ,      13.75 executions per parse
+     59, CAPSTONE  , STAT, bytes sent via SQL*Net to client                          ,          4522,     306.41,         ,             ,          ,           ,      904.4 bytes per roundtrip
+     59, CAPSTONE  , STAT, bytes received via SQL*Net from client                    ,           515,       34.9,         ,             ,          ,           ,        103 bytes per roundtrip
+     59, CAPSTONE  , STAT, SQL*Net roundtrips to/from client                         ,             5,        .34,         ,             ,          ,           ,        .09 per execution
+     59, CAPSTONE  , STAT, sorts (memory)                                            ,             9,        .61,         ,             ,          ,           ,        .16 per execution
+     59, CAPSTONE  , STAT, sorts (rows)                                              ,            33,       2.24,         ,             ,          ,           ,         .6 per execution
+     59, CAPSTONE  , TIME, hard parse elapsed time                                   ,        118837,     8.05ms,      .8%, [#         ],          ,           , 
+     59, CAPSTONE  , TIME, parse time elapsed                                        ,        119218,     8.08ms,      .8%, [#         ],          ,           , 
+     59, CAPSTONE  , TIME, DB CPU                                                    ,       1490513,      101ms,    10.1%, [@         ],          ,           , 
+     59, CAPSTONE  , TIME, sql execute elapsed time                                  ,       3519223,   238.46ms,    23.8%, [###       ],          ,           , 
+     59, CAPSTONE  , TIME, DB time                                                   ,       3527298,   239.01ms,    23.9%, [###       ],          ,           ,      -1.53 % unaccounted time
+     59, CAPSTONE  , WAIT, db file sequential read                                   ,        115449,     7.82ms,      .8%, [W         ],        20,       1.36,     5.77ms average wait
+     59, CAPSTONE  , WAIT, db file scattered read                                    ,            18,     1.22us,      .0%, [          ],         2,        .14,        9us average wait
+     59, CAPSTONE  , WAIT, direct path read                                          ,       1922278,   130.25ms,    13.0%, [WW        ],        96,        6.5,    20.02ms average wait
+     59, CAPSTONE  , WAIT, SQL*Net message to client                                 ,             6,      .41us,      .0%, [          ],         5,        .34,      1.2us average wait
+     59, CAPSTONE  , WAIT, SQL*Net message from client                               ,      11457197,   776.33ms,    77.6%, [WWWWWWWW  ],         5,        .34,      2.29s average wait
+     59, CAPSTONE  , WAIT, events in waitclass Other                                 ,           527,    35.71us,      .0%, [          ],        30,       2.03,    17.57us average wait
+ 
+
+ 
